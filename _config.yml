@@ -11,4 +11,4 @@ twitter_username: ygweric
 github_username: ygweric  
 
 # Build sattings
-markdown: kramdown 
+markdown: redcarpet 

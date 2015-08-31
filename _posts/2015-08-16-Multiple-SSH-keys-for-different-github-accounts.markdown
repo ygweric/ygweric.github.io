@@ -1,3 +1,6 @@
+---
+layout: post
+---
 #[Multiple SSH keys for different github accounts](https://gist.github.com/jexchan/2351996)
 I've test it and prove it is worked
 Eric

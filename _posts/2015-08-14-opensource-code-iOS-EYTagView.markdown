@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # EYTagView
 
 ------
@@ -37,7 +40,7 @@ _tagView.viewMaxHeight=130;
 ---
 ### how to use EYTagView
 
-```Object-C
+```
    EYTagView* _tagView=[[EYTagView alloc]initWithFrame:CGRectMake(10, 10, 200, 200)];
    [self.view addSubview:_tagView];
     _tagView.delegate=self;

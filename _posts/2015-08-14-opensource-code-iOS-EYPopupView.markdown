@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # EYPopupView
 
 ------
@@ -87,6 +90,7 @@ EYInputPopupView popViewWithTitle:@"我是标题我是标题我是标题我是�
                            }];
 ```
 *now we need to define some variable for the follwing code snippets*
+
 ```
 NSArray* _tags=@[
                     @"111",
