@@ -6,7 +6,7 @@
 晚上依然烧烤，篝火烟花啤酒。
 。。。。。
 第二天回京路上堵车，头疼死了，晚上洗澡洗掉一斤沙子。依然头疼，喝了一罐可乐，吃了一袋瓜子。慢些复活，第二天周日，歇一天
-
+{{ site.url }}
 
 
 ![2015-08-30-1.JPG]({{ site.url }}/assets/2015-08-30-1.JPG)
@@ -17,20 +17,20 @@
 
 ![2015-08-30-4.JPG]({{ site.url }}/assets/2015-08-30-4.JPG)
 
-![2015-08-30-5.JPG]({{ site.url }}/assets/2015-08-30-5.JPG)
+![2015-08-30-5.jpeg]({{ site.url }}/assets/2015-08-30-5.jpeg)
 
-![2015-08-30-6.JPG]({{ site.url }}/assets/2015-08-30-6.JPG)
+![2015-08-30-6.jpeg]({{ site.url }}/assets/2015-08-30-6.jpeg)
 
-![2015-08-30-7.JPG]({{ site.url }}/assets/2015-08-30-7.JPG)
+![2015-08-30-7.jpeg]({{ site.url }}/assets/2015-08-30-7.jpeg)
 
-![2015-08-30-8.JPG]({{ site.url }}/assets/2015-08-30-8.JPG)
+![2015-08-30-8.jpeg]({{ site.url }}/assets/2015-08-30-8.jpeg)
 
-![2015-08-30-9.JPG]({{ site.url }}/assets/2015-08-30-9.JPG)
+![2015-08-30-9.jpeg]({{ site.url }}/assets/2015-08-30-9.jpeg)
 
-![2015-08-30-10.JPG]({{ site.url }}/assets/2015-08-30-10.JPG)
+![2015-08-30-10.jpeg]({{ site.url }}/assets/2015-08-30-10.jpeg)
 
-![2015-08-30-11.JPG]({{ site.url }}/assets/2015-08-30-11.JPG)
+![2015-08-30-11.jpeg]({{ site.url }}/assets/2015-08-30-11.jpeg)
 
-![2015-08-30-12.JPG]({{ site.url }}/assets/2015-08-30-12.JPG)
+![2015-08-30-12.jpeg]({{ site.url }}/assets/2015-08-30-12.jpeg)
 
-![2015-08-30-13.JPG]({{ site.url }}/assets/2015-08-30-13.JPG)
+![2015-08-30-13.jpeg]({{ site.url }}/assets/2015-08-30-13.jpeg)
