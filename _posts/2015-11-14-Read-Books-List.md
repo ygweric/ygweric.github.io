@@ -2,8 +2,6 @@
 layout: post
 ---
 
-## Books List
----
 
 #### Books Finished Reading
 

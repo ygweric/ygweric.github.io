@@ -3,11 +3,6 @@ layout: post
 ---
 
 
-
-
-
-## UI Code Snippet
-
 ####  UILabel
 
 ```
