@@ -12,11 +12,10 @@ I will waste my time on it , maybe those 3 years, or 10 years,t or more... I hav
 
 
 
-![2015-11-14-Holiaday-1st-Oct-travel-1.png]({{ site.url }}/assets/2015-11-14-Holiaday-1st-Oct-travel-1.png)
 
-![2015-11-14-Holiaday-1st-Oct-travel-2.png]({{ site.url }}/assets/2015-11-14-Holiaday-1st-Oct-travel-2.png)
+![2015-11-14-Holiaday-1st-Oct-travel-2.jpg]({{ site.url }}/assets/2015-11-14-Holiaday-1st-Oct-travel-2.jpg)
 
-![2015-11-14-Holiaday-1st-Oct-travel-3.png]({{ site.url }}/assets/2015-11-14-Holiaday-1st-Oct-travel-3.png)
+![2015-11-14-Holiaday-1st-Oct-travel-3.jpg]({{ site.url }}/assets/2015-11-14-Holiaday-1st-Oct-travel-3.jpg)
 
-![2015-11-14-Holiaday-1st-Oct-travel-4.png]({{ site.url }}/assets/2015-11-14-Holiaday-1st-Oct-travel-4.png)
+![2015-11-14-Holiaday-1st-Oct-travel-4.jpg]({{ site.url }}/assets/2015-11-14-Holiaday-1st-Oct-travel-4.jpg)
 
