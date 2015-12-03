@@ -12,3 +12,6 @@ github_username: ygweric
 
 # Build sattings
 markdown: redcarpet 
+
+
+pygments: true
