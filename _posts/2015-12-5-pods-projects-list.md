@@ -3,7 +3,7 @@ layout: post
 ---
 
 
-[PAPreferences][PAPreferences]Using @dynamic to access NSUserDefaults.
+[PAPreferences][PAPreferences] Using @dynamic to access NSUserDefaults.
 
 
 
