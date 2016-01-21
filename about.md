@@ -7,6 +7,6 @@ permalink: /about/
 
 Eric Yang
 
-ericyangee@gmail.com
+ygweric@gmail.com
 
 
