@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ###Personal Statement *Simple*
 
 **Held a New Zealand's Working Holiday Visa, will arrive NewZealand in 20/4/2016, I intend to get the long-term period and eventually skilled migration.**
