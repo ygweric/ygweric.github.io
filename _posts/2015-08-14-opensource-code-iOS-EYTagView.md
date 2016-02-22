@@ -9,7 +9,7 @@ EYTagView is a custome view simulate iOS Evernote's tag editing view.
 
 ---
 
-###What can EYTagView do ???
+### What can EYTagView do ???
 
 1. Show unlimited number of tags in EYTagView with bricks layout
 
@@ -38,6 +38,7 @@ _tagView.viewMaxHeight=130;
 
 
 ---
+
 ### how to use EYTagView
 
 ```

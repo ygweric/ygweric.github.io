@@ -62,7 +62,7 @@ layout: post
 ````
 
 
-####UIImageView
+#### UIImageView
 ````
 {
             UIImageView* iv =[UIImageView new];
@@ -131,7 +131,7 @@ layout: post
 
 ````
 
-####UITextField
+#### UITextField
 ````
  {
             UITextField* tf=[[UITextField alloc]initWithFrame:CGRectZero];
@@ -171,6 +171,7 @@ layout: post
 
 
 #### UILabel size
+
 ##### 忽略 linenumber ，得到最大的size
 ````
 {
@@ -185,7 +186,9 @@ layout: post
     }
 
 ````
+
 ##### 当linenumber>1时候，得到size
+
 ````
 {
         UILabel* lb=(id)_lbSignature;
@@ -206,6 +209,7 @@ layout: post
     }
 
 ````
+
 #### TTTAttributedLabel size
 ````
 {

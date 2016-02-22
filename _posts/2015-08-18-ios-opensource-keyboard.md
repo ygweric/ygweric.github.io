@@ -1,4 +1,4 @@
 ---
 layout: post
 ---
-*I want to write a keyboard control , to edit self infomation more easier
+* I want to write a keyboard control , to edit self infomation more easier

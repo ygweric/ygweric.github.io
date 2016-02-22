@@ -13,7 +13,7 @@ This FFmpeg version is 2.8
 
 
 
-####the latest version `make` error , the stable release has no error
+#### the latest version `make` error , the stable release has no error
 
 ````
 eprecated here
@@ -71,7 +71,7 @@ Cannot run program "gdb": Unknown reason
 I switched C/C++ Build->Builder Settings->Builder type to External Builder, if builder type is disable, do `restore defaults`, and closed the properties window. When reopening properties the C/C++ Build->Settings->Tool Settings Tab was available.
 
 ----
-####Error: `unresolved inclusion: <SDL.h>`
+#### Error: `unresolved inclusion: <SDL.h>`
 
 Fix: Properties -> C/C++ General -> Paths and Symbols ->includes -> GUN C++ (and  GUN C) -> add `/usr/local/include/SDL`
 

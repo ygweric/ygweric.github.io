@@ -8,6 +8,7 @@ layout: post
 EYPopupView is a perfect pop view which you can show/input many kinds of things, like : single-line text, multiple lines text, tags, radio or checkboxs.
 
 ---
+
 ### Why will you use EYPopupView
 
 In most iOS App, users always need to show or input lots of things, such as commends, notes, messages, tags, we need to handler the frame of the UITextfield/UITextView, and we have to move the view up and donw depending the keyboard. it always take we( and me :-D ) lots of time and energy.
@@ -17,7 +18,7 @@ Those are the reason I wrote EYPopupView, which you can do those things with onl
 I will improve this project always, so you can push your request or the issuse helping me improve EYPopupView.
 
 
-###What can EYPopupView do and How to use it.
+### What can EYPopupView do and How to use it.
 
 1\ show single line alert
 
@@ -198,4 +199,4 @@ NSArray* _tags=@[
 
 
 
-##If you don't know how to use EYPopupView well, you can check the example project or create an issue
+## If you don't know how to use EYPopupView well, you can check the example project or create an issue
