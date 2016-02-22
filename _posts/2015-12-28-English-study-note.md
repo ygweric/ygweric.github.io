@@ -42,3 +42,215 @@ There are two types of vice presidents: doormats and matadors. Which do you thin
 
  ----
 
+  We're honest with each other. We don't sweep anything under the rug. Tricia, if it's eating at you, make him talk about it.
+ 语法分析 我们对彼此很坦诚，我们什么都不会藏着掖着，特莉莎，如果这事让你很困扰，和他谈谈。
+ 
+ ----
+ 
+   We're honest with each other. We don't sweep anything **under the rug**. Tricia, if it's eating at you, make him talk about it.
+ 语法分析 我们对彼此很坦诚，我们什么都不会藏着掖着，特莉莎，如果这事让你很困扰，和他谈谈。
+ ----
+  The backstabbing, **vomit-inducing** bitch.
+  那个背后捅刀的恶心婊子
+ 
+ ----
+ Raymond tells me you're a ribs man. Well, I've got three of the choicest pieces of meat **you'll ever see in your life coming out**.
+ 语法分析 雷蒙德跟我说你喜欢吃肋排，我这儿有三份顶级的肉，这辈子难得一尝。
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ 
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ 
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ 
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ ----
+ 
+ 
+ 
+ 

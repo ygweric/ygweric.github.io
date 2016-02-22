@@ -8,6 +8,8 @@ layout: post
 
 **My IELTS score is brand 6 in 2014, and better now, So you don't need to worry about my English level.**
 
+Eric Yang, male, born in 1989, Chinese, got Bachelor of Computer Information Science from Xuchang University in 2012.
+
 I've worked in Beijing for five years, have a 1-year Java Web development experience, 2-year of Android development experience, 4-years of iOS development experience, 2-years of project management experience. I will arrive NewZealand at Aril 2016 with Working Holiday Visa, and intend to find an IT related work, then get a long-term work visa, and intends to skilled migration.
 
 I like technology, like to learn and use new technologies, in addition to Java Web, Android, iOS, I am also proficient cocos2dx, C/C++, HTML / CSS, Python, etc., of course I can learn and adapt to new environments quickly, like to challenge myself.
@@ -131,6 +133,7 @@ Responsible for realizing new features and fixing bug, mainly used SSH + JavaScr
 * ffmpeg
 * Html/CSS + Python
 * XMPP + gloox + Openfire (Instant messaging framework)
+* SOAP, REST, JSON, XML
 * *And so on*
 
 ###Skill Detail
