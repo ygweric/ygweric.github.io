@@ -2,7 +2,7 @@
 layout: post
 ---
 
-###Personal Statement *Simple*
+### Personal Statement *Simple*
 
 **Held a New Zealand's Working Holiday Visa, will arrive NewZealand in 20/4/2016, I intend to get the long-term period and eventually skilled migration.**
 
@@ -19,7 +19,7 @@ My IELTS score is brand 6 in 2014, after two years of continuous learning, It sh
 I'm Cheerful, like to travel, like to learn new things, like sports and fitness, recently fell in love with skateboarding and skiing. I like music also, and learned the guitar for a month, but find the music is real too difficult for me, and gave up in the end ... 
 
 
-###Education Achievement
+### Education Achievement
 Xuchang University, Bachelor of Computer Information Science, from Sep. 2008 to Jun. 2012.
 
 My score in my University is perfect. Join the University Computer Laboratory on the second year on my college, do some projects for my teachers. Got a internship job about JavaEE near my college.
@@ -29,7 +29,8 @@ Helped teachers complete the "Teacher Tating Management System", "Teacher Teachi
 Got some times State scholarships.
 
 ----
-###Self Introduction *Detail*
+
+### Self Introduction *Detail*
 * [Custom Blog dogkk.com](http://www.dogkk.com/)
 * [Github](https://github.com/ygweric)
 * [stackoverflow](http://stackoverflow.com/users/1142674/ygweric?tab=topactivity)
@@ -56,29 +57,35 @@ I have a perfect skill about iOS, Android, including ObjC, Swift, Java, C/C++, H
 
 
 
-####8264Experience July 2013 - Current
+#### 8264 Experience July 2013 - Current
 
 The company called "8264", [8264][8264] is the largest outdoor community in China, has [8264 forum][bbs] and [7+2 Mall][7jia2] two mainly projects.
 My work is developing the application for [8264][8264], [7+2 Mall][7jia2], [Equipment cool][zbc] and [Date me][yueban], and join the website development in the last days.
 
 ##### 2013/7/1 - 2014/5/1
 Manage the [8264 forum][bbs] iOS and Android development, and develop the iOS app.
+
 ##### 2014/5/1 - 2015/3/1
 Manage the [7+2 Mall][7jia2] iOS and Android development, and develop the iOS app.
+
 ##### 2015/3/1 - 2015/6/1
 Develop the iOS app [7+2 Sellor][7jia2].
+
 ##### ~ 2015/10/1 2015/6/1
 Develop the iOS app [Date me][yueban].
+
 ##### 2015/10/1 - 2016/1/1
 Join [Equipment cool][zbc] iOS team, transferred lots basic code from ObjC to Swift.
+
 ##### 2016/1/1 ~ 20156/4/1
 Join [Equipment cool][zbc] Web development, develop the front page. Became familiar with HTML/CSS and python.
 
 
 
+
 ----
 
-###Yunho Experience August 2012 – July 2013
+### Yunho Experience August 2012 – July 2013
 
 The company's product is Smart Home, operate a variety of furniture and equipment with the app.
 
@@ -86,7 +93,7 @@ I develop the iOS app in the beginning, some months later was promoted to the te
 
 ----
 
-###Mdtit Experience September 2011 – June 2012
+### Mdtit Experience September 2011 – June 2012
 
 An outsourcing company, and have own products.
 
@@ -95,7 +102,8 @@ Develop the outsourcing project: [wunderground.com] (www.wunderground.com)'s And
 I am also develop out company's own product: [Follow me] (http://suiwoyo.com/Page/App/AppDownload.aspx) Android app, which mainly uses Baidu Map SDK, and realized real time tracking and recording with GPS.
 
 ---- 
-###Sinosoft Experience July 2010 – May 2011
+
+### Sinosoft Experience July 2010 – May 2011
 
 [Sinosoft](http://www.sinosoft-technology.com/) , my internship company, the main products is telephone call system FlexCC for for insurance companies, using the SSH of Java Web.
 
@@ -104,15 +112,15 @@ Responsible for realizing new features and fixing bug, mainly used SSH + JavaScr
 
 ----
 
-###My Componies Opensource Projects List
+### My Componies Opensource Projects List
 
-#####My recent App which can be worked
+##### My recent App which can be worked
 * [7+2 Mall iOS](https://itunes.apple.com/cn/app/qi-jia-er-lu-you-shang-cheng/id933498480?mt=8)
 * [7+2 Seller iOS](https://itunes.apple.com/cn/app/qi-jia-er-shang-hu-tong/id1009179353?mt=8)
 * [Equipment cool iOS](https://itunes.apple.com/cn/app/zhuang-bei-ku/id901263506?mt=8)
 * [Date Me iOS](https://itunes.apple.com/cn/app/yue-ban-zhen-zheng-neng-zhao/id639508528?mt=8&ign-mpt=uo%3D4)
 
-#####My old App which might be not worked
+##### My old App which might be not worked
 * [叫代驾](http://www.jiaodaijia.com/Home/Mobile)
 * [8264 iOS](https://itunes.apple.com/us/app/8264hu-wai-lu-you-lu-you-ji/id492167976?mt=8)
 * [Yunho iOS](https://itunes.apple.com/us/app/yun-he-jia-yuan-rang-jia-yong/id850330518?l=zh&ls=1&mt=8)
@@ -123,7 +131,7 @@ Responsible for realizing new features and fixing bug, mainly used SSH + JavaScr
 ----
 
 
-###Self Skill Introduction
+### Self Skill Introduction
 * iOS, OSX, Object-C, Swift
 * C/C++
 * Android, Java, JNI, 
@@ -136,22 +144,30 @@ Responsible for realizing new features and fixing bug, mainly used SSH + JavaScr
 * SOAP, REST, JSON, XML
 * *And so on*
 
-###Skill Detail
+### Skill Detail
 
 
 ##### IOS, OSX, Object-C, Swift
 4 years experience about iOS development, familiar with UI, Running Time, animation, and anything.
+
 ##### C/C++
 I use a lot of C/C++ in the third-party librarys when I am work with iOS, Cocos2dx, Gloox, and FFmpeg, read and modified them for my project.
+
 ##### Android, Java, JNI,
 2 year experience about Android development, always learned Android's latest technology.
+
 ##### Cocos2dx, box2d
 Started game development in 2013 in my free time, and have some game online now, though my games is not popular, the game development experence made me have a better understanding of the C/C++, and game development skills
-#####Jave Web, SSH
-#####Python, Tornado Web, 
-#####ffmpeg
-#####Html/CSS
-#####XMPP + gloox + Openfire (Instant messaging framework)
+
+##### Jave Web, SSH
+
+##### Python, Tornado Web, 
+
+##### ffmpeg
+
+##### Html/CSS
+
+##### XMPP + gloox + Openfire (Instant messaging framework)
 
 
 
@@ -161,7 +177,7 @@ Started game development in 2013 in my free time, and have some game online now,
 
 ----
 
-###My Opensource Projects List
+### My Opensource Projects List
 
 
 #### open source projects
@@ -182,12 +198,13 @@ Started game development in 2013 in my free time, and have some game online now,
 
 ----
 
-###Myself Apps List
-#####Applications List
+### Myself Apps List
+
+##### Applications List
 * Coffee Reading ([iOS](https://itunes.apple.com/cn/app/ka-fei-du-shu/id661040207?mt=8)) (OpenSource)
 * Beauty Album (iOS & [Android](http://www.appchina.com/app/com.pettygirl), but iOS is't online, Rejected always ☹️)
 
-#####Games List, powered by cocos2d or cocos2dx
+##### Games List, powered by cocos2d or cocos2dx
 * Alpaca Run (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/ni-ma-kuai-pao-shi-shang-zui/id935598033?mt=8))
 * Tell Color (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/tell-color/id945565750?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.tellcolor))
 * XYZ Block  (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/xyz-block/id942486744?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.xyz&hl=en))
@@ -195,27 +212,28 @@ Started game development in 2013 in my free time, and have some game online now,
 * Bird Jump 2  (cocos2d) ([iOS](https://itunes.apple.com/us/app/bird-jump-2/id583715731?l=zh&ls=1&mt=8)) (OpenSource)
 
 
-###Myself OSX App List
+### Myself OSX App List
 * Giffmpeg [Demo Video TODO](XX)
 
 
 ----
 
 
-###My Apps Introduction 
-#####Coffee Reading ([iOS](https://itunes.apple.com/cn/app/ka-fei-du-shu/id661040207?mt=8))
+### My Apps Introduction 
 
-#####Beauty Album (iOS & [Android](http://www.appchina.com/app/com.pettygirl))
+##### Coffee Reading ([iOS](https://itunes.apple.com/cn/app/ka-fei-du-shu/id661040207?mt=8))
 
-#####Alpaca Run (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/ni-ma-kuai-pao-shi-shang-zui/id935598033?mt=8))
+##### Beauty Album (iOS & [Android](http://www.appchina.com/app/com.pettygirl))
 
-#####Tell Color (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/tell-color/id945565750?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.tellcolor))
+##### Alpaca Run (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/ni-ma-kuai-pao-shi-shang-zui/id935598033?mt=8))
 
-#####XYZ Block  (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/xyz-block/id942486744?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.xyz&hl=en))
+##### Tell Color (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/tell-color/id945565750?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.tellcolor))
 
-#####Fast Maze (cocos2d) ([iOS](https://itunes.apple.com/us/app/fast-maze/id597108795?l=zh&ls=1&mt=8))
+##### XYZ Block  (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/xyz-block/id942486744?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.xyz&hl=en))
 
-#####Bird Jump 2  (cocos2d) ([iOS](https://itunes.apple.com/us/app/bird-jump-2/id583715731?l=zh&ls=1&mt=8))
+##### Fast Maze (cocos2d) ([iOS](https://itunes.apple.com/us/app/fast-maze/id597108795?l=zh&ls=1&mt=8))
+
+##### Bird Jump 2  (cocos2d) ([iOS](https://itunes.apple.com/us/app/bird-jump-2/id583715731?l=zh&ls=1&mt=8))
 
 
 

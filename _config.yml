@@ -9,6 +9,4 @@ github_username: ygweric
 
 # Build sattings
 markdown: kramdown 
-
-
-highlighter: true
+highlighter: rouge
