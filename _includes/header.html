@@ -1,8 +1,10 @@
 <header class="site-header">
-
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<div class="pacel "><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+  <a id="route" class="site-title" href="{{ site.baseurl }}/">Eric's Blog</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,11 +16,15 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          {% unless my_page.exclude_from_nav %}
+          <a id="route" class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endunless %}
           {% endif %}
         {% endfor %}
+        <a class="page-link" href="http://dogkk.com/feed.xml"> Feeds</a>
+        <a class="page-link" href="https://github.com/ygweric/ygweric.github.io"><i class="typico typcn typcn-social-github" style="font-size:"></i> Repositories</a>
       </div>
     </nav>
 

@@ -1,6 +1,13 @@
 ---
 layout: post
+published: true
+title:  "English speaking note"
+date:   2016-2-01 00:00:00 +0700
+categories: English
+tags:
+- English
 ---
+
 
 ----
 

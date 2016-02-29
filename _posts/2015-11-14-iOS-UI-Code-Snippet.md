@@ -1,7 +1,13 @@
 ---
 layout: post
+published: true
+title:  "iOS UI code snippet"
+date:   2015-11-14 00:00:00 +0700
+categories: it
+tags:
+- it
+- ios
 ---
-
 
 ####  UILabel
 

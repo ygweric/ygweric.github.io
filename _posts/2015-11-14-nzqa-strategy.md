@@ -1,5 +1,11 @@
 ---
 layout: post
+published: true
+title:  "NZQA experience"
+date:   2015-11-17 00:00:00 +0700
+categories: life
+tags:
+- life
 ---
 
 ### NZQA准备材料

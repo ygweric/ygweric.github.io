@@ -1,6 +1,13 @@
 ---
 layout: post
+published: true
+title:  "Multiple SSH keys for different github project"
+date:   2015-8-16 00:00:00 +0700
+categories: it
+tags:
+- it
 ---
+
 # [Multiple SSH keys for different github accounts](https://gist.github.com/jexchan/2351996)
 I've test it and prove it is worked
 Eric

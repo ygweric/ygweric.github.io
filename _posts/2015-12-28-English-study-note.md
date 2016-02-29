@@ -1,5 +1,11 @@
 ---
 layout: post
+published: true
+title:  "English study note"
+date:   2015-12-28 00:00:00 +0700
+categories: English
+tags:
+- English
 ---
 
 ----

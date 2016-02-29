@@ -1,6 +1,14 @@
 ---
 layout: post
+published: true
+title:  "Macdown build"
+date:   2015-12-5 00:00:00 +0700
+categories: it
+tags:
+- it
+- osx
 ---
+
 
 Error:
 

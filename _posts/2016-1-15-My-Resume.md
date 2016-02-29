@@ -1,7 +1,14 @@
 ---
 layout: post
-published: false
+published: true
+title:  "My English Resume"
+date:   2016-1-15 00:00:00 +0700
+categories: job
+tags:
+- job
 ---
+
+
 
 ### Personal Statement *Simple*
 

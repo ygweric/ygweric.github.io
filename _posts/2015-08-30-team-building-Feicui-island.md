@@ -1,6 +1,14 @@
 ---
 layout: post
+published: true
+title:  "Team building Feicui Island"
+date:   2015-8-30 00:00:00 +0700
+categories: life
+tags:
+- life
 ---
+
+
 早八点出发，12点多到，扎营，生火烧烤，太阳好热。
 到四点钟，远处出现龙卷风，然后就是狂风暴雨，我可怜的帐篷没有扎好，好悬没被刮跑，冒雨再扎一下帐篷，冻成狗了。
 晚上依然烧烤，篝火烟花啤酒。

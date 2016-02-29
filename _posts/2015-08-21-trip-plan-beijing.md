@@ -1,5 +1,11 @@
 ---
 layout: post
+published: true
+title:  "Parents trip plan to Beijing"
+date:   2015-8-21 00:00:00 +0700
+categories: life
+tags:
+- life
 ---
 
 ## 周五

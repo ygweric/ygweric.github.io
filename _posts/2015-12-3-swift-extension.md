@@ -1,5 +1,12 @@
 ---
 layout: post
+published: true
+title:  "Swift extension"
+date:   2015-12-3 00:00:00 +0700
+categories: it
+tags:
+- it
+- ios
 ---
 
 [swift+extension](https://github.com/ygweric/swift-extension)

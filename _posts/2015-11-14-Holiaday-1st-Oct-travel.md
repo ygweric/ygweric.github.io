@@ -1,5 +1,11 @@
 ---
 layout: post
+published: true
+title:  "Holiday 1st Oct. travel"
+date:   2015-11-14 00:00:00 +0700
+categories: life
+tags:
+- life
 ---
 
 

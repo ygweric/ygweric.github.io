@@ -1,6 +1,13 @@
 ---
 layout: post
+published: true
+title:  "Diary Aug."
+date:   2015-8-1 00:00:00 +0700
+categories: life
+tags:
+- life
 ---
+
 ## Date: 2015-08-04
 ---
 近日读了一本欧洲简史，是一位澳大利亚的教授编写给自己学生的，因为他们觉得这些澳洲学生太不理解自己的mother land了，毕竟大部分澳洲人都是欧洲过去的。

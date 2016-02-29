@@ -1,5 +1,12 @@
 ---
 layout: post
+published: true
+title:  "C/C++ note"
+date:   2015-12-28 00:00:00 +0700
+categories: it
+tags:
+- it
+- c/c++
 ---
 
 

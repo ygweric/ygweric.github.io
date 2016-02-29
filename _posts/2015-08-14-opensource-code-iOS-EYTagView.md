@@ -1,6 +1,14 @@
 ---
 layout: post
+published: true
+title:  "iOS opensource code EYTagView"
+date:   2015-8-14 00:00:00 +0700
+categories: it
+tags:
+- it
+- ios
 ---
+
 # EYTagView
 
 ------

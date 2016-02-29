@@ -1,5 +1,12 @@
 ---
 layout: post
+published: true
+title:  "iOS viewWillAppear vs viewWillDisappear "
+date:   2015-11-17 00:00:00 +0700
+categories: it
+tags:
+- it
+- ios
 ---
 
 ````
