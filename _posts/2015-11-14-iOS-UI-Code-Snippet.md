@@ -11,7 +11,7 @@ tags:
 
 ####  UILabel
 
-```
+````
  {
         UILabel* lb =[[UILabel alloc]initWithFrame:CGRectZero];
         lb.autoresizingMask=UIViewAutoresizingFlexibleWidth;
@@ -25,9 +25,8 @@ tags:
         [self.view addSubview:lb];
         
     }
-    
-   
-```
+       
+````
 
 #### UIButton
 
