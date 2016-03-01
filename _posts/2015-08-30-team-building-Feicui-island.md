@@ -17,28 +17,28 @@ tags:
 
 
 
-![2015-08-30-1.JPG]({{ site.url }}/assets/2015-08-30-1.JPG)
+![2015-08-30-1.JPG]({{ site.url }}/assets/image/2015-08-30-1.JPG)
 
-![2015-08-30-2.JPG]({{ site.url }}/assets/2015-08-30-2.JPG)
+![2015-08-30-2.JPG]({{ site.url }}/assets/image/2015-08-30-2.JPG)
 
-![2015-08-30-3.JPG]({{ site.url }}/assets/2015-08-30-3.JPG)
+![2015-08-30-3.JPG]({{ site.url }}/assets/image/2015-08-30-3.JPG)
 
-![2015-08-30-4.JPG]({{ site.url }}/assets/2015-08-30-4.JPG)
+![2015-08-30-4.JPG]({{ site.url }}/assets/image/2015-08-30-4.JPG)
 
-![2015-08-30-5.jpeg]({{ site.url }}/assets/2015-08-30-5.jpeg)
+![2015-08-30-5.jpeg]({{ site.url }}/assets/image/2015-08-30-5.jpeg)
 
-![2015-08-30-6.jpeg]({{ site.url }}/assets/2015-08-30-6.jpeg)
+![2015-08-30-6.jpeg]({{ site.url }}/assets/image/2015-08-30-6.jpeg)
 
-![2015-08-30-7.jpeg]({{ site.url }}/assets/2015-08-30-7.jpeg)
+![2015-08-30-7.jpeg]({{ site.url }}/assets/image/2015-08-30-7.jpeg)
 
-![2015-08-30-8.jpeg]({{ site.url }}/assets/2015-08-30-8.jpeg)
+![2015-08-30-8.jpeg]({{ site.url }}/assets/image/2015-08-30-8.jpeg)
 
-![2015-08-30-9.jpeg]({{ site.url }}/assets/2015-08-30-9.jpeg)
+![2015-08-30-9.jpeg]({{ site.url }}/assets/image/2015-08-30-9.jpeg)
 
-![2015-08-30-10.jpeg]({{ site.url }}/assets/2015-08-30-10.jpeg)
+![2015-08-30-10.jpeg]({{ site.url }}/assets/image/2015-08-30-10.jpeg)
 
-![2015-08-30-11.jpeg]({{ site.url }}/assets/2015-08-30-11.jpeg)
+![2015-08-30-11.jpeg]({{ site.url }}/assets/image/2015-08-30-11.jpeg)
 
-![2015-08-30-12.jpeg]({{ site.url }}/assets/2015-08-30-12.jpeg)
+![2015-08-30-12.jpeg]({{ site.url }}/assets/image/2015-08-30-12.jpeg)
 
-![2015-08-30-13.jpeg]({{ site.url }}/assets/2015-08-30-13.jpeg)
+![2015-08-30-13.jpeg]({{ site.url }}/assets/image/2015-08-30-13.jpeg)
