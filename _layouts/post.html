@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<script id="dsq-count-scr" src="//ygwericblog.disqus.com/count.js" async></script>
+
 <div style="margin: 4.5rem auto;">
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -10,24 +12,10 @@ layout: default
     <h1 style="float:right">
      <i class="typico typcn typcn-messages" style="    position: relative;
     top: 0px;
-    font-size: 25px;"></i> <a class="disqus-comment-count" href="#disqus_thread" style="color:#fff"> 0</a>
-    </h1>
-    
-   
-    
-
- 
- 
-  
-
-    
-    
-    </p>
-  
+    font-size: 25px;"></i> <a class="disqus-comment-count" data-disqus-url="{{page.url | prepend: site.url}}" href="{{page.url | prepend: site.url}}#disqus_thread" style="color:#fff"> 0</a>
+    </h1>  
+    </p>  
   </header>
-  
-  
-  
   
   <div class="post-content" itemprop="articleBody">
     {{ content }}
@@ -77,19 +65,7 @@ layout: default
 
 
 
-
-
-<style>
-    #disqus_thread {
-  overflow: hidden;
-
-  iframe {
-    margin-bottom: -54px;
-  }
-}
-</style>
-
-
+<!-- DISQUS   DISQUS      DISQUS  -->
 <div id="disqus_thread"></div>
 <script>
 /**
@@ -112,6 +88,3 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-
-

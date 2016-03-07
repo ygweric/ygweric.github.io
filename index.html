@@ -4,7 +4,7 @@ layout: default
 
 
 
-
+<script id="dsq-count-scr" src="//ygwericblog.disqus.com/count.js" async></script>
 <div class="row">
 
 <div class="large-7 columns samping">
@@ -35,7 +35,7 @@ layout: default
         <p class="post-date"><i class="typico typcn typcn-messages" style="    font-size: 28px;
     position: relative;
     top: 1px;
-    font-size:15px"></i> <a id="route" class="disqus-comment-count"  href="{{ post.url | prepend: site.baseurl }}#disqus_thread" style="color:#fff"> 0 Comments</a></p>
+    font-size:15px"></i> <a id="route" class="disqus-comment-count"  data-disqus-url="{{post.url | prepend: site.url}}" href="{{ post.url | prepend: site.url }}#disqus_thread" style="color:#fff"> 0 Comments</a></p>
     </footer>
 </article>
     {% endfor %}

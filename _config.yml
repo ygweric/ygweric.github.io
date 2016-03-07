@@ -12,6 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Eric's Life and Job
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dogkk.com" # the base hostname & protocol for your site
+urll: "http://localhost:4000"
 twitter_username: ygweric
 github_username:  ygweric
 facebook_username:  ygweric
