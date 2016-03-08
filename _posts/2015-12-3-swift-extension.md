@@ -28,32 +28,32 @@ tags:
 
 without extension 
 
-````
+```swift
 view.frame = CGRectMake(view.frame.origin.x, view.frame.origin.y, view.frame.size.width, 12)
 
 or
 CGRect frame= view.frame
 frame.size.height=12
 view.frame=frame
-````
+```
 
 with extension 
 
-````
+```swift
 view.height = 12
-````
+```
 
 
 ### Extension for String
 
 method list
 
-````
+```swift
 func containsString(s:String) -> Bool
 func containsString(s:String, compareOption: NSStringCompareOptions) -> Bool
 var isNilOrEmpty
 var emptyIfNil
-````
+```
 
 
 ### Extension for UIButton
@@ -62,7 +62,7 @@ easy with to create button
 
 there are lots of default parameters value.
 
-````
+```swift
 convenience init(
         frame_:CGRect? = nil,
         imgName:String? = nil,
@@ -81,7 +81,7 @@ convenience init(
         ){
         ....
         }
-````
+```
 
 
 
@@ -93,7 +93,7 @@ easy with to create button
 
 there are lots of default parameters value.
 
-````
+```swift
 convenience init(
         frame_:CGRect = CGRectZero,
         font:UIFont? = nil,
@@ -106,7 +106,7 @@ convenience init(
         ){
         ....
         }
-````
+```
 
 
 ### Extension for UILabel
@@ -115,7 +115,7 @@ easy with to create button
 
 there are lots of default parameters value.
 
-````
+```swift
  convenience init(
         frame_:CGRect = CGRectZero,
         text:String? = nil,
@@ -127,7 +127,7 @@ there are lots of default parameters value.
         ){
         ....
         }
-````
+```
 
 ### Extension for UIImage
 
@@ -135,9 +135,9 @@ init image with color
 
 there are lots of default parameters value.
 
-````
+```swift
 convenience init(color: UIColor, size: CGSize = CGSizeMake(1, 1)) {...}
-````
+```
 
 
 
@@ -150,7 +150,7 @@ in `GlobleFunction`, with [QorumLogs](https://github.com/goktugyil/QorumLogs), y
 
 I also define some useful var and func such as
 
-````
+```swift
 var SCREEN_SCALE:CGFloat { return UIScreen.mainScreen().bounds.size.width/320}
 var SCREEN_WIDTH:CGFloat { return UIScreen.mainScreen().bounds.size.width}
 var SCREEN_HEIGHT:CGFloat { return UIScreen.mainScreen().bounds.size.height}
@@ -165,7 +165,7 @@ var TAB_BAR_HEIGHT:CGFloat { return 49}
 func COLORRGB(rgbValue: UInt) -> UIColor {}
 func COLORRGBA(rgbValue: UInt, _ alphaValue: Float) -> UIColor {}
 
-````
+```
 
 
 

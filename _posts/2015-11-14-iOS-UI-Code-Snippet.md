@@ -11,7 +11,26 @@ tags:
 
 ####  UILabel
 
-````
+```
+[EYTextPopupView popViewWithTitle:@"我是标题" contentText:@"我是正文"
+                                                    leftButtonTitle:@"左键"
+                                                    rightButtonTitle:@"右键"
+                                                          leftBlock:^() {
+                                                              NSLog(@"left button clicked");
+                                                          }
+                                                         rightBlock:^() {
+                                                             NSLog(@"left button clicked");
+                                                         }
+                                                       dismissBlock:^() {
+                                                           NSLog(@"Do something interesting after dismiss block");
+                                                       }];
+
+```
+
+
+
+
+```
  {
         UILabel* lb =[[UILabel alloc]initWithFrame:CGRectZero];
         lb.autoresizingMask=UIViewAutoresizingFlexibleWidth;
@@ -26,11 +45,11 @@ tags:
         
     }
        
-````
+```
 
 #### UIButton
 
-````
+```
  
     {
         UIButton* bt =[UIButton buttonWithType:UIButtonTypeCustom];
@@ -48,13 +67,13 @@ tags:
     }
 
 
-````
+```
 
 
 
 #### UIView
  
-````
+```
 {
             UIView* v=[UIView new];
             v.frame=CGRectMake(100, 100, 100, 30);
@@ -64,11 +83,11 @@ tags:
 
         }
         
-````
+```
 
 
 #### UIImageView
-````
+```
 {
             UIImageView* iv =[UIImageView new];
             iv.frame=CGRectMake(0, 0, 35, 35);
@@ -78,10 +97,10 @@ tags:
             [self.view addSubview:iv];
         }
         
-````
+```
 
 #### UITableView
-````     
+```     
 {
         UITableView* tb=[[UITableView alloc]initWithFrame:self.view.bounds];
         self.tbItems=tb;
@@ -95,10 +114,10 @@ tags:
         [self.view addSubview:tb];
     }
 
-````
+```
 
 #### UITextView
-````
+```
 {
           UITextView* tv=[[UITextView alloc]initWithFrame:CGRectZero];
             tv.frame=CGRectMake(10, 10, 100, 100);
@@ -110,10 +129,10 @@ tags:
             [cell.contentView addSubview:tv];
         }
         
-````
+```
 
 #### UISwitch
-````
+```
  {
             UISwitch* sw=[[UISwitch alloc]initWithFrame:CGRectZero];
             sw.frame=CGRectMake(cell.frame.size.width-33-10, (45-20)/2, 33, 20);
@@ -123,10 +142,10 @@ tags:
             sw.onTintColor=MAIN_COLOR_2;
             [cell.contentView addSubview:sw];
         }
-````
+```
 
 #### UITableViewCell
-````
+```
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     if (!cell)
     {
@@ -134,10 +153,10 @@ tags:
             cell.selectionStyle=UITableViewCellSelectionStyleNone;
     }
 
-````
+```
 
 #### UITextField
-````
+```
  {
             UITextField* tf=[[UITextField alloc]initWithFrame:CGRectZero];
             tf.frame=CGRectMake(80, 16, cell.frame.size.width-80-10, 15);
@@ -151,10 +170,10 @@ tags:
             [cell.contentView addSubview:tf];
         }
 
-````
+```
 
 #### EYTagView
-````
+```
 {//tag flow
         EYTagView* tag=[[EYTagView alloc]initWithFrame:CGRectZero];
         tag.frame=CGRectMake(100,(45-28)/2, SCREEN_WIDTH-100-25, 30);
@@ -167,7 +186,7 @@ tags:
         [_vTableHeader addSubview:tag];
     }
 
-````
+```
 
 
 
@@ -178,7 +197,7 @@ tags:
 #### UILabel size
 
 ##### 忽略 linenumber ，得到最大的size
-````
+```
 {
         UILabel* lb=(id)[_vTableHeader viewWithTag:TAG_HEADER_LB_REMARK];
         lb.backgroundColor=TEST_COLOR_RED;
@@ -190,20 +209,20 @@ tags:
         CHANGE_FRAME_Y(lb, CGRectGetMaxY([_vTableHeader viewWithTag:TAG_HEADER_V_LOCATION_FLOW].frame)+8)
     }
 
-````
+```
 
 ##### 当linenumber>1时候，得到size
 
-````
+```
 {
         UILabel* lb=(id)_lbSignature;
         CGSize maximumLabelSize = CGSizeMake(lb.frame.size.width,1000);
          CGSize newSize =[lb sizeThatFits:maximumLabelSize];
         CHANGE_FRAME_HEIGHT(lb, newSize.height)
     }
-````
+```
 
-````
+```
 {
         UILabel* lb=(id)[_vTableHeader viewWithTag:TAG_HEADER_LB_NAME];
         CGSize maximumLabelSize = CGSizeMake(1000, lb.frame.size.height);
@@ -213,10 +232,10 @@ tags:
         CHANGE_FRAME_WIDTH(lb, newFrame.size.width);
     }
 
-````
+```
 
 #### TTTAttributedLabel size
-````
+```
 {
         TTTAttributedLabel* lb=(id)[_vTableHeader viewWithTag:TAG_HEADER_LB_REMARK];
         lb.backgroundColor=TEST_COLOR_RED;
@@ -225,9 +244,9 @@ tags:
         CHANGE_FRAME_HEIGTH(lb, newSize.height);
         CHANGE_FRAME_Y(lb, CGRectGetMaxY([_vTableHeader viewWithTag:TAG_HEADER_V_LOCATION_FLOW].frame)+8)
     }
-````
+```
 
-````
+```
 
   {
         UILabel* lb=(id)[_vTableHeader viewWithTag:TAG_HEADER_LB_BROWSE_COUNT];
@@ -245,4 +264,4 @@ tags:
         CHANGE_FRAME_Y(v, CGRectGetMinY([_vTableHeader viewWithTag:TAG_HEADER_LB_COMMENT_COUNT].frame))
     }
 
-````
+```

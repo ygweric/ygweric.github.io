@@ -107,7 +107,8 @@ blockquote>:last-child {
 pre,
 code {
     font-size: 15px;
-    background-color: #222;
+    background-color: #0000000;
+    word-wrap:normal;
 }
 
 code {
@@ -175,7 +176,7 @@ pre>code {
     margin: 1rem auto;
     padding-bottom: 0.5em;
     /* border-bottom: #E8E8E8 1px solid; */
-    word-wrap: break-word;
+    
 }
 
 .pagination {
@@ -1758,7 +1759,7 @@ ul {
 }
 
 .highlighter-rouge .highlight {
-    background: #eef;
+    background: #222;
 }
 
 .highlight .c {
@@ -1767,8 +1768,8 @@ ul {
 }
 
 .highlight .err {
-    color: #a61717;
-    background-color: #e3d2d2;
+    color: #ffffff;
+    background-color: #e3d2d20;
 }
 
 .highlight .k {
@@ -1917,7 +1918,7 @@ ul {
 }
 
 .highlight .nt {
-    color: #000080;
+    color: #fff;
 }
 
 .highlight .nv {
@@ -2361,3 +2362,22 @@ p.hoverbawah {
     position: relative;
     top: -5px;
 }
+
+
+::-webkit-scrollbar {
+    height: 8px;
+
+}
+::-webkit-scrollbar-track {
+    background-color: ##6D6C6C;
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #5a5a5a;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #7a7a7a;
+}
+
+

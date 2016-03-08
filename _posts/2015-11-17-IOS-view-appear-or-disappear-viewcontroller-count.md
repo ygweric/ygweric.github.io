@@ -9,8 +9,7 @@ tags:
 - ios
 ---
 
-````
-
+```
 -(void)viewWillAppear:(BOOL)animated{
     LOGINFO(@"%ld",self.navigationController.viewControllers.count)
 }
@@ -53,4 +52,4 @@ tags:
 -[DevSettingVC viewDidAppear:] [ 3
 
 
-````
+```

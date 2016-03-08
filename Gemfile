@@ -1,4 +1,4 @@
-source 'https://rubygems.org/'
+source 'https://ruby.taobao.org/'
 gem 'thor'
 gem 'stringex'
 gem 'jekyll-paginate'

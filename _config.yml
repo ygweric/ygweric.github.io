@@ -26,7 +26,12 @@ gems:
 paginate: 10
 paginate_path: "page/:num"
 # Build settings
-markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  highlighter: rouge
 
 # Archive
 jekyll-archives:

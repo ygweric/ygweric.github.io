@@ -15,14 +15,14 @@ This FFmpeg version is 2.8
 
 #### the latest version `make` error , the stable release has no error
 
-````
+```
 eprecated here
 void av_picture_copy(AVPicture *dst, const AVPicture *src,
      ^
 ffplay.c:3761:24: error: token is not a valid binary operator in a preprocessor subexpression
 if CONFIG_AVDEVICE    avdevice_register_all();
 
-````
+```
 
 ----
 
@@ -30,7 +30,7 @@ if CONFIG_AVDEVICE    avdevice_register_all();
 
 If so I found the problem is that OSX does not pass the PATH variable to applications started through the GUI. So to get around this one should start eclipse **from the terminal**. This worked when I had the problem.
 
-````
+```
 HTML	doc/ffmpeg.html
 /bin/sh: texi2html: command not found
 make: *** [doc/ffmpeg.html] Error 127
@@ -39,18 +39,18 @@ make: *** [doc/ffmpeg.html] Error 127
 CC	libavfilter/vsrc_testsrc.o
 /bin/sh: yasm: command not found
 make: *** [libavfilter/x86/af_volume.o] Error 127
-````
+```
 
 ---
 
 
 [Installing GDB on OS X Mavericks](http://ntraft.com/installing-gdb-on-os-x-mavericks/)
 
-````
+```
 Launching "ffplay_g" has encountered a problem
 Error with command: gdb --version
 Cannot run program "gdb": Unknown reason
-````
+```
 
 
 
@@ -111,7 +111,7 @@ Fix:
 
 Following patch is right
 
-````
+```
 # HG changeset patch
 # User Azamat H. Hackimov <azamat.hackimov@gmail.com>
 # Date 1370184533 -21600
@@ -168,7 +168,7 @@ diff -r f7fd5c3951b9 -r 91ad7b43317a src/video/x11/SDL_x11sym.h
  #endif
  
 
-````
+```
 
 
 
