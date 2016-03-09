@@ -277,6 +277,10 @@ pre>code {
     border-radius: 1px 0 0 3px;
     border-color: #e74c3c;
 }
+.tags  {
+   list-style: none;
+   margin-left: 0px;
+}
 
 .tags a {
     height: 26px;

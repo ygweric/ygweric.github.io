@@ -5,10 +5,11 @@ permalink: /tags/
 exclude_from_nav: true
 ---
 
+
 <div style="margin: 2rem auto;">
 
-<div class="tags-pagee">
-<ul class="tags" style="padding:0     margin-bottom: 20px;">
+<div class="tags-pagee" style="margin-top: 30px">
+<ul class="tags" style="padding:0 margin-bottom: 20px">
 	  {% for tag in site.tags %}
 	  
   <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
@@ -25,11 +26,11 @@ exclude_from_nav: true
 {% for tag in site.tags %}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h3 id="#{{ tag_name | slugize }}">#{{ tag_name }}</h3>
+    <h2 id="#{{ tag_name | slugize }}">{{ tag_name }}</h2>
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item">
-      <p><h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4></p>
+      <p><h3><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h3></p>
       <p class="tags-date">{{ post.date | date: "%b %-d, %Y" }}</p>
     </article>
     {% endfor %}
