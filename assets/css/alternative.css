@@ -62,7 +62,7 @@ figure>img {
 }
 
 figcaption {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 ul,
@@ -95,7 +95,7 @@ blockquote {
     color: #828282;
     border-left: 4px solid #e8e8e8;
     padding-left: 15px;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: -1px;
     font-style: italic;
 }
@@ -106,8 +106,8 @@ blockquote>:last-child {
 
 pre,
 code {
-    font-size: 15px;
-    background-color: #0000000;
+    font-size: 17px;
+    background-color: #222;
     word-wrap:normal;
 }
 
@@ -159,15 +159,15 @@ pre>code {
 }
 
 .post-header .post-title a {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .post-excerpt p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .post-meta {
-    font-size: 10px;
+    font-size: 12px;
     color: #828282;
 }
 
@@ -187,7 +187,7 @@ pre>code {
 .tags-date {
     float: right;
     margin-top: -35px;
-    font-size: 12px;
+    font-size: 14px;
     color: #828282;
 }
 
@@ -205,7 +205,7 @@ pre>code {
     .tags-date {
         float: right;
         margin-top: -40px;
-        font-size: 12px;
+        font-size: 14px;
         color: #828282;
     }
     .post {
@@ -233,10 +233,10 @@ pre>code {
         font-size: 1em;
     }
     .post-excerpt p {
-        font-size: 16px;
+        font-size: 18px;
     }
     .post-meta {
-        font-size: 12px;
+        font-size: 14px;
         color: #fff;
     }
     .pagination {
@@ -250,12 +250,6 @@ pre>code {
 
 .widgets {
     padding-bottom: 50px;
-}
-
-ol,
-ul {
-    list-style: none;
-    margin-left: 0;
 }
 
 .post:after {
@@ -288,7 +282,7 @@ ul {
     height: 26px;
     line-height: 23px;
     padding: 0 9px 0 8px;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     text-decoration: none;
     border-width: 1px 0 1px 1px;
@@ -365,7 +359,7 @@ ul {
 
 .pagination span,
 .pagination a {
-    font-size: 16px;
+    font-size: 18px;
     background: #00bc8c;
     padding: 5px 15px;
     /* border-radius: 3px; */
@@ -399,7 +393,7 @@ ul {
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -509,7 +503,7 @@ ul {
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
@@ -520,7 +514,7 @@ ul {
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    font-size: 17px;
     color: #828282;
     margin-left: -15px;
 }
@@ -582,7 +576,7 @@ ul {
     /* border-color: #375a7f; */
     /* margin-top: 20px; */
     height: 31px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .post-list {
@@ -596,7 +590,7 @@ ul {
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .post-header {
@@ -610,13 +604,13 @@ ul {
     height: 30px;
 }
 .inpost-title {
-        font-size: 25px;
+        font-size: 27px;
     letter-spacing: -1px;
     float: left;
 }
 
 .post-title {
-    font-size: 25px;
+    font-size: 27px;
     letter-spacing: -1px;
     line-height: 1;
     color: #fff;
@@ -624,7 +618,7 @@ ul {
 }
 @media screen and (max-width: 800px) {
     .post-title {
-        font-size: 24px;
+        font-size: 26px;
     }
 }
 
@@ -634,32 +628,32 @@ ul {
 }
 
 .post-content h2 {
-    font-size: 32px;
+    font-size: 34px;
 }
 
 @media screen and (max-width: 800px) {
     .post-content h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 }
 
 .post-content h3 {
-    font-size: 26px;
+    font-size: 28px;
 }
 
 @media screen and (max-width: 800px) {
     .post-content h3 {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
 .post-content h4 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 800px) {
     .post-content h4 {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -839,7 +833,7 @@ ul {
     background: transparent;
     color: #E8e8e8;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .row {
@@ -1689,7 +1683,7 @@ ul {
     border-image: none;
     border-width: 0 1px;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     padding: 7px 12px;
 }
@@ -1749,7 +1743,7 @@ ul {
 }
 
 .typico {
-    font-size: 28px;
+    font-size: 30px;
     position: relative;
     top: 3px;
 }
@@ -1870,7 +1864,7 @@ ul {
 }
 
 .highlight .kt {
-    color: #458;
+    color: #7E99EC;
     font-weight: bold;
 }
 
@@ -1909,7 +1903,7 @@ ul {
 }
 
 .highlight .nf {
-    color: #900;
+    color: #CC0303;
     font-weight: bold;
 }
 
@@ -1922,7 +1916,7 @@ ul {
 }
 
 .highlight .nv {
-    color: #008080;
+    color: #02DEDE;
 }
 
 .highlight .ow {
@@ -1942,7 +1936,7 @@ ul {
 }
 
 .highlight .mi {
-    color: #099;
+    color: #07C1C1;
 }
 
 .highlight .mo {
@@ -2087,7 +2081,7 @@ ul {
 /* Use this next selector to style things like font-size and line-height: */
 .tooltipster-default .tooltipster-content {
 	font-family: Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 	/* padding: 8px 10px; */
 	overflow: hidden;
