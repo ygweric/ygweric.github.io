@@ -1,28 +1,28 @@
 ---
 layout: post
-published: true
+published: false
 title:  "My English Resume"
 date:   2016-1-15 00:00:00 +0700
 categories: job
 tags:
 - job
 ---
-
+ 
 
 
 ### Personal Statement *Simple*
 
-**Held a New Zealand's Working Holiday Visa, will arrive NewZealand in 20/4/2016, I intend to get the long-term period and eventually skilled migration.**
+**Held a New Zealand's Working Holiday Visa, will arrive Auckland, New Zealand in 20/4/2016, I intend to get the long-term period and eventually skilled migration.**
 
 **My IELTS score is brand 6 in 2014, and better now, So you don't need to worry about my English level.**
 
 Eric Yang, male, born in 1989, Chinese, got Bachelor of Computer Information Science from Xuchang University in 2012.
 
-I've worked in Beijing for five years, have a 1-year Java Web development experience, 2-year of Android development experience, 4-years of iOS development experience, 2-years of project management experience. I will arrive NewZealand at Aril 2016 with Working Holiday Visa, and intend to find an IT related work, then get a long-term work visa, and intends to skilled migration.
+I've worked in Beijing, China's Silicon Valley, for five years, have a 1-year Java Web development experience, 2-year of Android development experience, 4-years of iOS development experience, 2-years of project management experience. I will arrive New Zealand at Aril 2016 with Working Holiday Visa, and intend to find an IT related work, then get a long-term work visa, and intends to realize skilled migration.
 
-I like technology, like to learn and use new technologies, in addition to Java Web, Android, iOS, I am also proficient cocos2dx, C/C++, HTML / CSS, Python, etc., of course I can learn and adapt to new environments quickly, like to challenge myself.
+I like technology, like to learn and use new technologies, in addition to Java Web, Android, iOS, I am also proficient cocos2dx, C/C++, HTML / CSS, Python, etc., of course I can learn and adapt to new environments quickly, like to face challenge.
 
-My IELTS score is brand 6 in 2014, after two years of continuous learning, It should be better than brand 6. Good at Listening and Reading, speaking and writing is just OK, I can watch and understand the most of US drama without subtitles, and listen to BBC every day. So you don't need to worry about my English level.
+My IELTS score is brand 6 in 2014, after two years of continuous learning, It should be better than brand 6. Good at Listening and Reading, speaking and writing are well too, I can watch and understand the most of US drama without subtitles, and listen to BBC every day. So you don't need to worry about my English level.
 
 I'm Cheerful, like to travel, like to learn new things, like sports and fitness, recently fell in love with skateboarding and skiing. I like music also, and learned the guitar for a month, but find the music is real too difficult for me, and gave up in the end ... 
 
@@ -30,9 +30,9 @@ I'm Cheerful, like to travel, like to learn new things, like sports and fitness,
 ### Education Achievement
 Xuchang University, Bachelor of Computer Information Science, from Sep. 2008 to Jun. 2012.
 
-My score in my University is perfect. Join the University Computer Laboratory on the second year on my college, do some projects for my teachers. Got a internship job about JavaEE near my college.
+My score in my University is perfect. Joined the University Computer Laboratory on the second year on my college, did some projects for my teachers. Got a internship job about JavaEE with the recommendation of my teacher.
 
-Helped teachers complete the "Teacher Tating Management System", "Teacher Teaching Quantitative Assessment System."
+Helped teachers to complete 2 J2EE project: the "Teacher Tating Management System", "Teacher Teaching Quantitative Assessment System."
 
 Got some times State scholarships.
 
@@ -44,31 +44,31 @@ Got some times State scholarships.
 * [stackoverflow](http://stackoverflow.com/users/1142674/ygweric?tab=topactivity)
 * [Myself Apps on App Store](https://itunes.apple.com/cn/developer/eric-yang/id583715734)
 * [Myself Apps on Google Play](https://play.google.com/store/apps/developer?id=Coffee%20Studio%20--%20Eric%20Yang&hl=en)
-* [Csdn Blog](http://blog.csdn.net/kafeidev)
+* [Csdn Blog](http://blog.csdn.net/kafeidev) *China's largest IT forum*
 
 ----
 
 Eric Yang, male, born in 1989, Chinese, got Bachelor of Computer Information Science from Xuchang University in 2012.
 
-**Held a New Zealand's Working Holiday Visa, will arrive NewZealand in 20/4/2016, I intend to get the long-term period and eventually skilled migration.**
+**Held a New Zealand's Working Holiday Visa, will arrive Auckland, New Zealand in 20/4/2016, I intend to get the long-term period and eventually skilled migration.**
 
 **My IELTS score is brand 6 in 2014, and better now, So you don't need to worry about my English level.**
 
 
-I've worked in Beijing for five years, have a 1-year Java Web development experience, 2-year of Android development experience, 4-years of iOS development experience, 2-years of project management experience. I will arrive NewZealand at Aril 2016 with Working Holiday Visa, and intend to find an IT related work, then get a long-term work visa, and intends to skilled migration.
+I've worked in Beijing, China's Silicon Valley, for five years, have a 1-year Java Web development experience, 2-year of Android development experience, 4-years of iOS development experience, 2-years of project management experience. I will arrive New Zealand at Aril 2016 with Working Holiday Visa, and intend to find an IT related work, then get a long-term work visa, and intends to realize skilled migration.
 
-I am interested in lots kinds of latest and useful Technical, in addition to the necessary technical work, I've developed some applications powered by cocos2dx in my  spare time, and submited them to the Appstore and GooglePlay. I am now developing a OSX application "GifMaker" powered by FFmpeg, which can make a gif picture from video file, the basic function is finished, but I am busy with work, and preparing for the NewZealand trip, "GifMaker" is on hold.
+I am interested in lots kinds of latest and useful technology, in addition to the necessary technical work, I've developed some applications powered by cocos2dx in my  spare time, and submited them to the Appstore and GooglePlay. I am now developing a OSX application "GifMaker" powered by FFMpeg, which can make a gif picture from video file and shoule be cross-platform, the basic function is finished, but I am busy with my job, "GifMaker" is on hold.
 
 I love opensource projects, love IT Forum, contributed some controls to the project and questions and answers. you can check my [Github](https://github.com/ygweric) for detail.
 
-I have a perfect skill about iOS, Android, including ObjC, Swift, Java, C/C++, HTML / CSS, etc., and can use python, shell etc. well too.
+I have a perfect skill about iOS, Android, including ObjC, Swift, Java, C/C++, HTML / CSS, etc., also can use python, shell etc. well too.
 
 
 
 #### 8264 Experience July 2013 - Current
 
 The company called "8264", [8264][8264] is the largest outdoor community in China, has [8264 forum][bbs] and [7+2 Mall][7jia2] two mainly projects.
-My work is developing the application for [8264][8264], [7+2 Mall][7jia2], [Equipment cool][zbc] and [Date me][yueban], and join the website development in the last days.
+My work is developing the application for [8264][8264], [7+2 Mall][7jia2], [Equipment cool][zbc] and [Date me][yueban], and join the website development in the last months.
 
 ##### 2013/7/1 - 2014/5/1
 Manage the [8264 forum][bbs] iOS and Android development, and develop the iOS app.
@@ -86,7 +86,7 @@ Develop the iOS app [Date me][yueban].
 Join [Equipment cool][zbc] iOS team, transferred lots basic code from ObjC to Swift.
 
 ##### 2016/1/1 ~ 20156/4/1
-Join [Equipment cool][zbc] Web development, develop the front page. Became familiar with HTML/CSS and python.
+Join [Equipment cool][zbc] Web development, develop the front-end. Became familiar with HTML/CSS and python.
 
 
 
@@ -97,7 +97,7 @@ Join [Equipment cool][zbc] Web development, develop the front page. Became famil
 
 The company's product is Smart Home, operate a variety of furniture and equipment with the app.
 
-I develop the iOS app in the beginning, some months later was promoted to the team leader, responsible for the development of iOS and Android App, and the developmet of the camera modle with C++ powered by FFmpeg.
+I develop the iOS app in the beginning, some months later was promoted to the team leader, responsible for the development of iOS and Android App, and the developmet of the camera modle with C++ powered by FFMpeg.
 
 ----
 
@@ -105,9 +105,9 @@ I develop the iOS app in the beginning, some months later was promoted to the te
 
 An outsourcing company, and have own products.
 
-Develop the outsourcing project: [wunderground.com] (www.wunderground.com)'s Android app [Weather Underground] (https://play.google.com/store/apps/details?id=com.wunderground.android.weather&hl = en), which mainly used Google Map SDK.
+Develop the outsourcing project: [wunderground.com](http://wunderground.com)'s Android app [Weather Underground](https://play.google.com/store/apps/details?id=com.wunderground.android.weather&hl=en), which mainly used Google Map SDK.
 
-I am also develop out company's own product: [Follow me] (http://suiwoyo.com/Page/App/AppDownload.aspx) Android app, which mainly uses Baidu Map SDK, and realized real time tracking and recording with GPS.
+I am also develop out company's own product: [Follow me](http://suiwoyo.com/Page/App/AppDownload.aspx) Android app, which mainly uses Baidu Map SDK, and realized real time tracking and recording with GPS.
 
 ---- 
 
@@ -120,7 +120,7 @@ Responsible for realizing new features and fixing bug, mainly used SSH + JavaScr
 
 ----
 
-### My Componies Opensource Projects List
+### My Componies' Projects List
 
 ##### My recent App which can be worked
 * [7+2 Mall iOS](https://itunes.apple.com/cn/app/qi-jia-er-lu-you-shang-cheng/id933498480?mt=8)
@@ -146,7 +146,7 @@ Responsible for realizing new features and fixing bug, mainly used SSH + JavaScr
 * cocos2d/x, box2d
 * Jave Web, SSH
 * Python, Tornado Web, 
-* ffmpeg
+* FFMpeg
 * Html/CSS + Python
 * XMPP + gloox + Openfire (Instant messaging framework)
 * SOAP, REST, JSON, XML
@@ -159,24 +159,25 @@ Responsible for realizing new features and fixing bug, mainly used SSH + JavaScr
 4 years experience about iOS development, familiar with UI, Running Time, animation, and anything.
 
 ##### C/C++
-I use a lot of C/C++ in the third-party librarys when I am work with iOS, Cocos2dx, Gloox, and FFmpeg, read and modified them for my project.
+I use a lot of C/C++ in the third-party librarys when I am work with iOS, Cocos2dx, Gloox, and FFMpeg, read and modified them for my project.
 
 ##### Android, Java, JNI,
 2 year experience about Android development, always learned Android's latest technology.
 
 ##### Cocos2dx, box2d
-Started game development in 2013 in my free time, and have some game online now, though my games is not popular, the game development experence made me have a better understanding of the C/C++, and game development skills
+Started game development in 2013 in my spare time, and have some game online now, though my games is not popular, the game development experence made me have a better understanding of the C/C++, and game development skills
 
 ##### Jave Web, SSH
+Use them 5 years ago, forget lots of them, but I am still familiar with Java now.
 
-##### Python, Tornado Web, 
+#####Html/CSS, Python, Tornado Web
+Use them for months in project [Equipment cool][zbc], can use them for normal front-end and  back-end.
 
-##### ffmpeg
-
-##### Html/CSS
+##### FFMpeg
+Know it's sourcecode and can realize general function
 
 ##### XMPP + gloox + Openfire (Instant messaging framework)
-
+Very familiar, can change them as I want
 
 
 
@@ -186,7 +187,6 @@ Started game development in 2013 in my free time, and have some game online now,
 ----
 
 ### My Opensource Projects List
-
 
 #### open source projects
 * Fast Maze (cocos2d Game) ([github](https://github.com/ygweric/fastmaze/tree/master))  
@@ -210,7 +210,7 @@ Started game development in 2013 in my free time, and have some game online now,
 
 ##### Applications List
 * Coffee Reading ([iOS](https://itunes.apple.com/cn/app/ka-fei-du-shu/id661040207?mt=8)) (OpenSource)
-* Beauty Album (iOS & [Android](http://www.appchina.com/app/com.pettygirl), but iOS is't online, Rejected always ☹️)
+* Beauty Album (iOS & [Android](http://www.appchina.com/app/com.pettygirl), but iOS is't online, Rejected always :(  )
 
 ##### Games List, powered by cocos2d or cocos2dx
 * Alpaca Run (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/ni-ma-kuai-pao-shi-shang-zui/id935598033?mt=8))
@@ -221,7 +221,7 @@ Started game development in 2013 in my free time, and have some game online now,
 
 
 ### Myself OSX App List
-* Giffmpeg [Demo Video TODO](XX)
+* Giffmpeg (*unfinished*)
 
 
 ----
@@ -230,19 +230,35 @@ Started game development in 2013 in my free time, and have some game online now,
 ### My Apps Introduction 
 
 ##### Coffee Reading ([iOS](https://itunes.apple.com/cn/app/ka-fei-du-shu/id661040207?mt=8))
+* can read >=500MB txt file, and very quickly
+* jump to any page by percent
+* realize flip over animation
+* detect the txt encoding automatically
+* upload txt file to iphone with LAN
+* change light, color and style
 
 ##### Beauty Album (iOS & [Android](http://www.appchina.com/app/com.pettygirl))
+* show lots of photos. work with json
 
 ##### Alpaca Run (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/ni-ma-kuai-pao-shi-shang-zui/id935598033?mt=8))
+* Cocos2dx game, something like flappy bird.
 
 ##### Tell Color (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/tell-color/id945565750?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.tellcolor))
+* Puzzle game
+* 'Tell Color' is a colorful word game, you should tell the color of the word, instead of the meaning of itself, then press the matching button on the bottom, there is a count down clock, press the right color will increase the time, and wrong will decrease the time.
+
 
 ##### XYZ Block  (cocos2dx) ([iOS](https://itunes.apple.com/cn/app/xyz-block/id942486744?mt=8) & [Android](https://play.google.com/store/apps/details?id=com.appcpu.xyz&hl=en))
+* Puzzle game, like the popular game '2048'
+* You can choose to play with numbers or letters.
 
 ##### Fast Maze (cocos2d) ([iOS](https://itunes.apple.com/us/app/fast-maze/id597108795?l=zh&ls=1&mt=8))
+* maze game, realize maze algorithm. 
+* It is opensource now
 
 ##### Bird Jump 2  (cocos2d) ([iOS](https://itunes.apple.com/us/app/bird-jump-2/id583715731?l=zh&ls=1&mt=8))
-
+* My first cocos2d game, a little boring...
+* It is opensource now
 
 
 
