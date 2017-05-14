@@ -7,8 +7,10 @@ permalink: /project.html
 
 <h1 class="archive-header"></h1>
 <div class="wf-container" style="margin-top: 80px;">
+
       {% for post in site.posts %}
-      {% if post.categories contains 'project' %}
+      
+      {% if post.categories contains "project"  or  post.tags contains "project"%}
       
      <div class="wf-box">
          <a id="route" href="{{ post.url | prepend: site.baseurl }}">
