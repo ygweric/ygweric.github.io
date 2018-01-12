@@ -1,0 +1,307 @@
+/* ************* Base Begin ************** */
+html, body {
+  height: 100%; }
+
+a:link, a:visited {
+  color: #ff6800; }
+
+a:hover {
+  color: #f06000; }
+
+a:active {
+  color: #ff7810; }
+
+input[type="button"] {
+  background-color: #f06000;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.src-app-App__base-width--219X- {
+  width: 80%;
+  margin: 0 auto; }
+
+/* ************* Base End ************** */
+.src-app-App__mainBrowserRouter--1cPwJ,
+.src-app-App__App--pO6QF {
+  height: 100%;
+  position: relative; }
+
+.src-app-App__mainBody--Cq2U8 {
+  min-height: 100%;
+  margin-bottom: -80px; }
+
+.src-app-App__mainBody--Cq2U8::after {
+  content: "";
+  display: block;
+  height: 80px; }
+
+.src-app-App__mainFooter--66udH {
+  height: 80px;
+  clear: both; }
+
+.src-app-App__footer--2IFt5 { }
+
+.src-app-App__App--pO6QF {
+  text-align: center;
+  width: 100%; }
+
+.src-app-App__mainContainer--1UF8Q { }
+
+.src-app-App__mainContent--3AUKa {
+  width: 100%;
+  float: left; }
+
+.src-app-App__navbar-background--11JL3,
+.src-app-App__mainFooter--66udH {
+  background-color: #f4f4f4; }
+
+.src-app-App__navbar--5cYd7 { }
+
+.src-app-App__rightSideBar--1gCKb {
+  width: 24%;
+  float: right; }
+
+@media only screen and (max-width: 750px) {
+  .src-app-App__mainContent--3AUKa {
+    width: 100%; }
+  .src-app-App__rightSideBar--1gCKb {
+    width: 100%; } }
+.navbar_parent_div .navbar-default .navbar-nav>.active>a,
+.navbar_parent_div .navbar-default .navbar-nav>.active>a:hover {
+    color: #ff6800;
+    font-size: 18px;
+    background-color: #ececec;
+}
+
+.navbar_parent_div .navbar-default .navbar-nav>li>a {
+ 	color: #f06000;
+ 	font-size: 18px;
+}
+
+.navbar_parent_div .navbar-default{
+	background-color: transparent;
+  border: none;
+}
+
+
+.navbar_parent_div .dropdown-menu>.active>a,
+.navbar_parent_div .dropdown-menu>.active>a:focus,
+.navbar_parent_div .dropdown-menu>.active>a:hover {
+	color: #f06000;
+	background-color: #f3f3f3;
+}
+
+
+.navbar_parent_div .dropdown-menu>li>a {
+	color: #f06000;
+}
+
+.navbar_parent_div .dropdown-menu>li.deprecated>a {
+  color: #727272;
+}
+
+.navbar_parent_div .navbar-default .navbar-nav>.open>a,
+.navbar_parent_div .navbar-default .navbar-nav>.open>a:focus,
+.navbar_parent_div .navbar-default .navbar-nav>.open>a:hover {
+	color: #f06000;
+	background-color: #f8f8f8;
+}
+
+@media (max-width: 767px) {
+	.navbar_parent_div .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar_parent_div .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar_parent_div .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+		color: #f06000;
+		background-color: #f8f8f8;
+	}
+
+  .navbar_parent_div .navbar-default .navbar-nav .open .dropdown-menu>li.deprecated>a {
+    color: #727272;
+  }
+
+	.navbar_parent_div .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #f06000;
+	}
+}
+
+
+.navbar_parent_div .navbar-brand {
+	padding: 2px 2px;
+}
+
+.brand {
+	width: 50px;
+	height: 50px;
+}
+.src-home-home__baseHomeBody--1IPKP {
+	color: #0f0;
+}
+
+.src-home-home__homeBody--19Gw8 {
+	color: #f00;
+}.src-videosaver-urlInput__urlInput--1fWmR {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+div.src-videosaver-urlInput__urlInput--1fWmR * {
+  margin-top: 5px;
+}
+
+.src-videosaver-urlInput__urlInput--1fWmR ol {
+  padding-left:20px;
+}
+
+.src-videosaver-urlInput__urlInput--1fWmR ol .src-videosaver-urlInput__liTitle--19Ig4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.src-videosaver-urlInput__urlInput--1fWmR ol .src-videosaver-urlInput__liLink--28K0F {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.src-videosaver-urlInput__urlAddressTitle--q7Xox {
+  margin-right: 10px;
+}
+
+.src-videosaver-urlInput__urlAddressInput--2bYMz {
+  min-width: 300px;
+}
+
+.src-videosaver-urlInput__app-info--3UMhE {
+  font-size: 14px;
+  color: #666;
+  margin-top: 30px;
+  word-wrap: break-word;
+}
+
+.src-videosaver-urlInput__error-message--3sd1A {
+  color: #f00;
+}
+
+.src-videosaver-urlInput__google-play-badge--IJSym {
+  max-width: 100px;
+}
+.src-videosaver-downloadPreview__thumbnail--2mY63 {
+  max-height: 300px;
+  max-width: 300px;
+  min-width: 150px;
+  min-height: 150px;
+  margin-right: 20px;
+  background-color: #eee;
+}
+
+.src-videosaver-downloadPreview__button--1f7HR {
+  margin-top: 10px;
+}
+.src-components-loading-loading__loading--1OQcH {
+  margin: 0 auto;
+}
+.src-about-about__about--29XOc h2 {
+  color: #515151;
+}
+
+.src-about-about__content--3yDOi {
+  font-size: 17px;
+  text-align: left;
+  color: #646464;
+
+}
+
+.src-about-about__name--3D61Q {
+  font-size: 35px;
+  font-weight: bold;
+  color: #f06000;
+}
+.src-toolshub-toolsHub__toolshub--2yuVa {
+    text-align: left;
+}
+
+.src-toolshub-toolsHub__cell--EiJmW {
+  text-align: left;
+  min-height: 40px;
+  font-size: 17px;
+  border-color: #e9e8e8;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  display: inline-block;
+  margin: 3px;
+  width: 30%;
+}
+
+@media only screen and (max-width: 750px) and (min-width: 350px) {
+  .src-toolshub-toolsHub__cell--EiJmW {
+    min-height: 30px;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .src-toolshub-toolsHub__cell--EiJmW {
+    min-height: 30px;
+    width: 80%;
+  }
+}
+
+.src-toolshub-toolsHub__toolshub--2yuVa a:link,
+.src-toolshub-toolsHub__toolshub--2yuVa a:visited {
+  color: #494848
+}
+
+.src-toolshub-toolsHub__toolshub--2yuVa a:hover {
+  color: #f06000;
+}
+
+.src-toolshub-toolsHub__toolshub--2yuVa a:active {
+  color: #ff7810;
+}
+.src-footer-footer__footer--3YUpf {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.src-footer-footer__text--2mGU3 {
+  margin-right: 20px;
+  font-size: 13px;
+  color: #666;
+}
+
+.src-footer-footer__mainInfo--1ZL7e {
+  margin-top: 5px;
+}
+
+.src-footer-footer__subInfo--3-Zi3 {
+  margin-bottom: 5px;
+}
+
+.src-footer-footer__footer--3YUpf a:link,
+.src-footer-footer__footer--3YUpf a:visited {
+  color: #666;
+}
+
+
+.src-footer-footer__footer--3YUpf a:hover {
+  color: #f06000;
+}
+
+.src-footer-footer__footer--3YUpf a:active {
+  color: #ff7810;
+}
+.src-sidebar-sideBar__sideBar--29yra {
+
+}
+
+/*# sourceMappingURL=styles.css.map*/
