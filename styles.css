@@ -140,74 +140,60 @@ input[type="button"] {
 	width: 50px;
 	height: 50px;
 }
-.src-home-home__baseHomeBody--1IPKP {
-	color: #0f0;
-}
-
-.src-home-home__homeBody--19Gw8 {
-	color: #f00;
-}.src-videosaver-urlInput__urlInput--1fWmR {
-  margin-top: 20px;
+.src-videosaver-components-App__app--2I9_8 {
   text-align: left;
-  margin-left: 20px;
-  font-size: 15px;
-}
+  margin-top: 20px;
+  margin-bottom: 20px; }
+.src-videosaver-components-UrlInput__urlInput--Cq4W4 {
+  font-size: 15px; }
 
-div.src-videosaver-urlInput__urlInput--1fWmR * {
-  margin-top: 5px;
-}
+.src-videosaver-components-UrlInput__urlAddressTitle--1bxej {
+  margin-right: 10px; }
 
-.src-videosaver-urlInput__urlInput--1fWmR ol {
-  padding-left:20px;
-}
+.src-videosaver-components-UrlInput__urlAddressInput--56kFa {
+  min-width: 300px; }
 
-.src-videosaver-urlInput__urlInput--1fWmR ol .src-videosaver-urlInput__liTitle--19Ig4 {
+.src-videosaver-components-UrlInput__submit--1eL3U {
+  color: white;
+  background-color: #ff6800; }
+.src-videosaver-components-AppInfo__olClsss--2GE_i {
+  padding-left: 20px; }
+
+.src-videosaver-components-AppInfo__olClsss--2GE_i .src-videosaver-components-AppInfo__liTitle--3z4jy {
   font-size: 16px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-.src-videosaver-urlInput__urlInput--1fWmR ol .src-videosaver-urlInput__liLink--28K0F {
+.src-videosaver-components-AppInfo__olClsss--2GE_i .src-videosaver-components-AppInfo__liLink--2jb72 {
   font-size: 15px;
-  font-style: italic;
-}
+  font-style: italic; }
 
-.src-videosaver-urlInput__urlAddressTitle--q7Xox {
-  margin-right: 10px;
-}
-
-.src-videosaver-urlInput__urlAddressInput--2bYMz {
-  min-width: 300px;
-}
-
-.src-videosaver-urlInput__app-info--3UMhE {
+.src-videosaver-components-AppInfo__app-info--3kc78 {
   font-size: 14px;
   color: #666;
   margin-top: 30px;
   word-wrap: break-word;
-}
+  text-align: left; }
 
-.src-videosaver-urlInput__error-message--3sd1A {
-  color: #f00;
+.src-videosaver-components-AppInfo__google-play-badge--1TSGX {
+  max-width: 100px; }
+.src-components-loading-index__loading--1vcXx {
+  margin: 0 auto;
 }
+.src-videosaver-components-ErrorInfo__error-message--3ceQm {
+  color: #f00; }
+.src-videosaver-components-DownloadPreview__preview--vVliY {
+  margin-top: 20px; }
 
-.src-videosaver-urlInput__google-play-badge--IJSym {
-  max-width: 100px;
-}
-.src-videosaver-downloadPreview__thumbnail--2mY63 {
+.src-videosaver-components-DownloadPreview__thumbnail--PEPV9 {
   max-height: 300px;
   max-width: 300px;
   min-width: 150px;
   min-height: 150px;
   margin-right: 20px;
-  background-color: #eee;
-}
+  background-color: #eee; }
 
-.src-videosaver-downloadPreview__button--1f7HR {
-  margin-top: 10px;
-}
-.src-components-loading-loading__loading--1OQcH {
-  margin: 0 auto;
-}
+.src-videosaver-components-DownloadPreview__button--3FNPp {
+  margin-top: 10px; }
 .src-about-about__about--29XOc h2 {
   color: #515151;
 }
