@@ -2,7 +2,7 @@
 
     "notifications": [
         {
-            "expiredDate": "'2024-05-27T04:52:39.147Z'",
+            "expiredDate": "'2024-05-28T05:52:39.147Z'",
             "type": "deploying",
             "title": "服务器正在更新",
             "content": "服务会不稳定，预计完成时间[time]"
