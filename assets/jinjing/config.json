@@ -1,3 +1,11 @@
 {
-    "abc": "good"
+
+    "alert": [
+        {
+            "type": "deploying",
+            "title": "服务器正在更新",
+            "content": "服务会不稳定，预计完成时间[time]"
+        }
+    ]
+   
 }
