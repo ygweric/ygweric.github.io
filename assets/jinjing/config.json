@@ -1,6 +1,6 @@
 {
 
-    "alert": [
+    "notifications": [
         {
             "type": "deploying",
             "title": "服务器正在更新",
