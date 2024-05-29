@@ -1,5 +1,4 @@
 {
-
     "notifications": [
         {
             "expiredDate": "2024-09-31T04:52:39.147Z",
@@ -12,7 +11,12 @@
             "type": "deploying",
             "title": "",
             "content": "服务器正在更新，服务会不稳定，预计完成时间[time]"
+        },
+        {
+            "expiredDate": "2024-07-21T04:52:39.147Z",
+            "type": "deploying",
+            "title": "",
+            "content": "智能规划线路对双向摄像头暂时没有避让好，正在改进中，规划线路后请二次确认线路"
         }
     ]
-   
 }
