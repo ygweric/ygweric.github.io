@@ -7,16 +7,16 @@
             "content": "小程序试运行期间会不稳定，如有问题请稍后重试"
         },
         {
-            "expiredDate": "2024-03-21T04:52:39.147Z",
-            "type": "deploying",
-            "title": "",
-            "content": "服务器正在更新，服务会不稳定，预计完成时间[time]"
-        },
-        {
             "expiredDate": "2024-07-21T04:52:39.147Z",
             "type": "deploying",
             "title": "",
             "content": "智能规划线路对双向摄像头暂时没有避让好，正在改进中，规划线路后请二次确认线路，欢迎加群讨论"
+        },
+        {
+            "expiredDate": "2024-06-08T15:52:39.147Z",
+            "type": "deploying",
+            "title": "",
+            "content": "数据服务正在更新，预计完成时间[time]"
         }
     ]
 }
