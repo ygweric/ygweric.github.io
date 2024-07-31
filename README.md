@@ -9,5 +9,3 @@ github page
 
 
 [guowei.fun favicon](https://raw.githubusercontent.com/ygweric/ygweric.github.io/main/assets/icons/guowei.fun/favicon.png)
-
-https://raw.githubusercontent.com/ygweric/ygweric.github.io/main/icons/guowei.fun/favicon.png
