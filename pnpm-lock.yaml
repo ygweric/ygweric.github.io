@@ -11,6 +11,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.14
         version: 2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8)
+      '@vuepress/plugin-blog':
+        specifier: 2.0.0-rc.40
+        version: 2.0.0-rc.40(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8))(vue@3.4.34))
       '@vuepress/theme-default':
         specifier: 2.0.0-rc.40
         version: 2.0.0-rc.40(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8))(vue@3.4.34))
@@ -543,6 +546,11 @@ packages:
 
   '@vuepress/plugin-back-to-top@2.0.0-rc.40':
     resolution: {integrity: sha512-Vy7pYKqSMkkJR49jYbn9lnD0UyfPq/NMnUk4w35VO1FSqUkWCK51gy/ZBQ2f0Ung90sfvOgFuYhnM2+EOwH/xg==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.14
+
+  '@vuepress/plugin-blog@2.0.0-rc.40':
+    resolution: {integrity: sha512-Lu6uv+i6JNT07iVhabLeHHPQkvFmcxEpWm2j7l4MNPHkmUsp42nKzrDx/CCLVaNu386ZaSWFwusU/EGOVXu1cQ==}
     peerDependencies:
       vuepress: 2.0.0-rc.14
 
@@ -1928,6 +1936,15 @@ snapshots:
       vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8))(vue@3.4.34)
     transitivePeerDependencies:
       - '@vue/composition-api'
+      - typescript
+
+  '@vuepress/plugin-blog@2.0.0-rc.40(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8))(vue@3.4.34))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.40(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8))(vue@3.4.34))
+      chokidar: 3.6.0
+      vue: 3.4.34
+      vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8))(vue@3.4.34)
+    transitivePeerDependencies:
       - typescript
 
   '@vuepress/plugin-copy-code@2.0.0-rc.40(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@22.0.0)(sass@1.77.8))(vue@3.4.34))':
