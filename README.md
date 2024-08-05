@@ -9,3 +9,10 @@ github page
 
 
 [guowei.fun favicon](https://raw.githubusercontent.com/ygweric/ygweric.github.io/main/assets/icons/guowei.fun/favicon.png)
+
+
+# run jenkyll locally
+```
+bundle exec jekyll serve
+http://localhost:4000
+```
