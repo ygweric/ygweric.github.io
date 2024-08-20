@@ -7,6 +7,13 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'css image stretch 无损拉伸图片 by CSS',
+    description: `SS Image Stretch is a web tool that uses CSS's border-image-slice property to stretch the center of your images while preserving the shape of the corners. Achieve flawless image scaling similar to Android's 9-patch images with ease.
+      技术栈： Next.js+tailwindcss+react`,
+    imgSrc: '/static/images/pages/css_image_stretch.png',
+    href: 'https://stretch.guowei.fun/',
+  },
+  {
     title: '微信小程序源码 - 北漂开车指南',
     description: `同名微信小程序北漂开车指南外地车线路规划源码，移除线上接口，改为本地mock。
       智能规划线路，不收费，不限次数，显示进京证摄像头信息，规避摄像头。
