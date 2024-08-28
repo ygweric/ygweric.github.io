@@ -3,6 +3,7 @@ name: 国Wei
 avatar: /static/images/authors/guowei.png
 occupation: 一个10年的全栈工程师.
 company:
+type: Authors
 email: ygweric@163.com
 twitter: https://twitter.com/ygweric
 github: https://github.com/ygweric
