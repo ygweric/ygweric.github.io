@@ -1,7 +1,9 @@
 ---
-title: '随感：推广真难'
-date: '2024-06-11'
-tags: ['独立开发', '推广运营']
+title: 随感：推广真难
+date: 2024-06-11
+tags:
+  - 独立开发
+  - 推广运营
 draft: false
 summary:
 ---

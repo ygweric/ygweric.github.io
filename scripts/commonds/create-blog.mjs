@@ -79,7 +79,7 @@ const blogFilePath = path.join(
   String(year),
   String(month),
   String(date),
-  `${fileName}.mdx`
+  `${fileName}.md`
 )
 
 console.log(getMdxContent({ title, year, month, date, tags }))

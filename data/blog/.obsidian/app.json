@@ -12,5 +12,6 @@
     "layouts/",
     "public/",
     "scripts/"
-  ]
+  ],
+  "livePreview": false
 }
