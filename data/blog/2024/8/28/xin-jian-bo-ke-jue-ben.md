@@ -6,7 +6,7 @@ draft: false
 summary:
 ---
 
-Page不。合理的是有自己的。一次性剪的时候都需要手动。
+
 我的博客的技术栈是 **markdown + next.js + github page**。下面是我的博客的模板，
 
 ```
