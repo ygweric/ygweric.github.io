@@ -1,0 +1,16 @@
+{
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./",
+  "userIgnoreFilters": [
+    "node_modules/",
+    "app/",
+    "assets/",
+    "components/",
+    "css/",
+    "layouts/",
+    "public/",
+    "scripts/"
+  ]
+}

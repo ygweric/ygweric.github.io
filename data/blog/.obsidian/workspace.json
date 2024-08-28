@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/blog/2024/4/10/icp-done.md",
+                "file": "2024/6/11/think.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data/blog/2024/4/10/icp-done.md",
+                "file": "2024/6/11/think.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data/blog/2024/4/10/icp-done.md",
+                "file": "2024/6/11/think.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data/blog/2024/4/10/icp-done.md"
+                "file": "2024/6/11/think.md"
               }
             }
           }
@@ -148,6 +148,12 @@
   },
   "active": "5ea5ce7d84e9bc1d",
   "lastOpenFiles": [
+    "2024/6/11/Pasted image 20240828170151.png",
+    "blog/2024/6/11/Pasted image 20240828165947.png",
+    "blog/2024/6/11/think.md",
+    "faq/custom-mdx-component.md",
+    "faq/customize-kbar-search.md",
+    "data/blog/2024/4/10/icp-done.md",
     "scripts/change-file-from-mdx-to-md.mjs",
     "data/blog/2024/4/10/chrome-url-block-opensource.md",
     "data/blog/2024/4/10/aliyun-cloudflare-522.md",
