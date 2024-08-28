@@ -48,3 +48,7 @@ yarn-error.log*
 
 # Contentlayer
 .contentlayer
+
+
+# obsidian
+data/blog/.obsidian/workspace.json
