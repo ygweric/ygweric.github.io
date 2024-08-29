@@ -51,7 +51,7 @@ summary:
 
 const title = await input({ message: 'Enter blog title', validate: (val) => !!val })
 const tagsStr = await input({ message: 'Enter tags, split with comma (English or Chinese)' })
-const tags = tagsStr.split(',').split('，')
+const tags = tagsStr.split(/[,，\s]/)
 
 const fileName = await input({
   message: 'Enter file name',
