@@ -82,6 +82,6 @@ const blogFilePath = path.join(
   `${fileName}.md`
 )
 
-console.log(getMdxContent({ title, year, month, date, tags }))
+// console.log(getMdxContent({ title, year, month, date, tags }))
 
 ensureFileExists(blogFilePath, getMdxContent({ title, year, month, date, tags }))
