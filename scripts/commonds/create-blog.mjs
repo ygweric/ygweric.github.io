@@ -50,8 +50,8 @@ summary:
 `
 
 const title = await input({ message: 'Enter blog title', validate: (val) => !!val })
-const tagsStr = await input({ message: 'Enter tags, split with comma' })
-const tags = tagsStr.split(',')
+const tagsStr = await input({ message: 'Enter tags, split with comma (English or Chinese)' })
+const tags = tagsStr.split(',').split('，')
 
 const fileName = await input({
   message: 'Enter file name',
@@ -73,9 +73,12 @@ const date = await input({
   validate: (val) => isNumberBetween(val, 1, 31),
 })
 
-// data\blog\2024\8\8
+const basePath = process.cwd()
+const dataBlogPath = 'data/blog'
 const blogFilePath = path.join(
-  'data/blog',
+  basePath,
+  // this script will be run either on root or "data/blog", so I need prevent duplicated path
+  path.normalize(basePath).includes(path.normalize(dataBlogPath)) ? '' : dataBlogPath,
   String(year),
   String(month),
   String(date),
@@ -83,5 +86,6 @@ const blogFilePath = path.join(
 )
 
 // console.log(getMdxContent({ title, year, month, date, tags }))
+// console.log(`blogFilePath: ${blogFilePath}`)
 
 ensureFileExists(blogFilePath, getMdxContent({ title, year, month, date, tags }))
