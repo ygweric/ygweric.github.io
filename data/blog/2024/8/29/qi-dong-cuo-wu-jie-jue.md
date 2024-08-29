@@ -1,5 +1,5 @@
 ---
-title: docker启动WSL错误解决【未解决】
+title: docker启动WSL错误解决-改用hyper-v引擎
 date: 2024-8-29
 tags:
   - docker
@@ -11,6 +11,35 @@ summary:
 # 结论
 未解决，直接放弃wsl，使用 了hyper-v,
 虽然hyper-v慢一点，但本来就是自己电脑开发测试用的，慢就慢吧，等真不能用了再说。重新装一下到时候。
+
+
+# 改用hyper-v引擎
+启动hyper-v,过程如下
+### [Enable Hyper-V Manager on Windows](https://www.dell.com/support/manuals/zh-cn/dell-imageassist/dia_dynamic_ug/enable-hyper-v-manager-on-windows?guid=guid-80b4ffe0-6247-4a75-8b66-222bfd2cc50a&lang=en-us#:~:text=Go%20to%20Control%20Panel%20%3E%20Program,Hyper%2DV%20and%20click%20OK.)
+
+```
+Related video: [Activating Hyper-V Manager](https://youtu.be/aVMD8FfHJhw)
+
+#### Steps
+
+1. Go to Control Panel > Program > Program and Features.
+2. Click Turn Windows features on or off.
+
+    The Windows Features window is displayed.
+
+3. Select Hyper-V and click OK.
+
+    The system restarts to enable Hyper-V Manager.
+
+4. Open Hyper-V Manager.
+```
+
+
+
+结果docker中所有的images和container都没了~
+![](Pasted%20image%2020240829121614.png)
+
+
 
 **下面内容是尝试解决过程，但都不成功！！！**
 **下面内容是尝试解决过程，但都不成功！！！**
@@ -100,36 +129,6 @@ May need to run terminal/Powershell as Administrator. I had to, as I run Docker 
 ```
 
 ![](Pasted%20image%2020240829115945.png)
-
-
-
-
-
-# 改用hyper-v引擎
-启动hyper-v,过程如下
-### [Enable Hyper-V Manager on Windows](https://www.dell.com/support/manuals/zh-cn/dell-imageassist/dia_dynamic_ug/enable-hyper-v-manager-on-windows?guid=guid-80b4ffe0-6247-4a75-8b66-222bfd2cc50a&lang=en-us#:~:text=Go%20to%20Control%20Panel%20%3E%20Program,Hyper%2DV%20and%20click%20OK.)
-
-```
-Related video: [Activating Hyper-V Manager](https://youtu.be/aVMD8FfHJhw)
-
-#### Steps
-
-1. Go to Control Panel > Program > Program and Features.
-2. Click Turn Windows features on or off.
-
-    The Windows Features window is displayed.
-
-3. Select Hyper-V and click OK.
-
-    The system restarts to enable Hyper-V Manager.
-
-4. Open Hyper-V Manager.
-```
-
-
-
-结果docker中所有的images和container都没了~
-![](Pasted%20image%2020240829121614.png)
 
 
 
