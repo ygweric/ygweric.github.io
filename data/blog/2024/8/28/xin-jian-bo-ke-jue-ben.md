@@ -1,5 +1,5 @@
 ---
-title: '自动新建博客脚本'
+title: '【Next.js+Markdown】自动新建博客脚本'
 date: '2024-8-28'
 tags: ['script', 'blog']
 draft: false
