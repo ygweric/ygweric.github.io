@@ -13,5 +13,6 @@
     "public/",
     "scripts/"
   ],
-  "livePreview": true
+  "livePreview": true,
+  "strictLineBreaks": false
 }

@@ -25,31 +25,18 @@ markdown文件是可以在vscode中预览时候的路径是相对路径，是找
 下面就是我的代码 **syncBlogImagesToPublic.js**
 
 
-
 ```js
 import syncDirectory from 'sync-directory'
 
-  
-
 export const syncBlogImagesToPublic = (watch = true) => {
-
   const srcDir = './data/blog/'
-
   const targetDir = './public/blog/'
-
-  
-
   syncDirectory(srcDir, targetDir, {
-
     watch,
-
     exclude: [/.*(md|mdx)$/i],
-
   })
-
 }
 ```
-
 
 
 我只需要在程序启动的时候，或者在程序build的时候去运行这个脚本。
