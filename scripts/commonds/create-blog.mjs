@@ -55,7 +55,7 @@ const tags = tagsStr.split(/[,，\s]/)
 
 const fileName = await input({
   message: 'Enter file name',
-  default: pinyin(title, { removeTone: true }).replace(/\s+/gi, '-'),
+  default: pinyin(title, { removeTone: true, keepRest: true }).replace(/\s+/gi, '-'),
 })
 const year = await input({
   message: 'Enter year',
