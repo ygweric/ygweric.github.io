@@ -4,7 +4,7 @@ date: 2024-9-11
 tags:
   - 阿里云
   - 备案
-draft: true
+draft: false
 summary:
 ---
 
@@ -28,9 +28,10 @@ summary:
 [备案接入准确性检查工具](https://beian.aliyun.com/pcContainer/domainCheck)
 
 
+## 低成本保持阿里云备案方法
 
 
-
+TODO
 
 
 
