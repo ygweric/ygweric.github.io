@@ -52,3 +52,4 @@ yarn-error.log*
 
 # obsidian
 data/blog/.obsidian/workspace.json
+*.absolute-path.md

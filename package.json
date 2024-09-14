@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "next dev",
+    "imgpath": "node scripts/commonds/convert-md-img-absolute-path.mjs",
     "create": "node scripts/commonds/create-blog.mjs",
     "dev": "concurrently \"cross-env WATCH=true node ./scripts/prebuild.mjs\"  \"cross-env INIT_CWD=$PWD next dev --port 3456\"",
     "build": "cross-env WATCH=false node ./scripts/prebuild.mjs && cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
