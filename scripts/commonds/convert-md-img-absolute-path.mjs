@@ -27,7 +27,7 @@ function findMdFiles(dir) {
 function replaceImagePaths(mdFile, originPath) {
   const content = fs.readFileSync(mdFile, 'utf8')
   const mdDir = path.dirname(mdFile).replace('data', '') // 获取 md 文件所在的目录
-  console.log(mdDir)
+  // console.log(mdDir)
 
   // const updatedContent = content.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, altText, imgPath) => {
   //   if (!imgPath.startsWith('http') && !path.isAbsolute(imgPath)) {
@@ -52,7 +52,7 @@ function replaceImagePaths(mdFile, originPath) {
 
   const newFileName = mdFile.replace(/\.md$/, asoluteSuffixPath)
   fs.writeFileSync(newFileName, updatedContent, 'utf8')
-  console.log(`Updated: ${mdFile}`)
+  // console.log(`Updated: ${mdFile}`)
 }
 
 // 主函数
@@ -63,7 +63,7 @@ function updateImagePathsInMdFiles(srcDir, originPath) {
     replaceImagePaths(mdFile, originPath)
   })
 
-  console.log('All .md files updated.')
+  console.log(`${mdFiles.length} .md  files updated.`)
 }
 
 // 调用示例
