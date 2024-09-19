@@ -2,6 +2,8 @@
 import path from 'path'
 import fs from 'fs'
 
+const asoluteSuffixPath = '.absolute-path.md'
+
 // 递归遍历目录，查找所有 .md 文件
 function findMdFiles(dir) {
   const files = fs.readdirSync(dir)
@@ -13,7 +15,7 @@ function findMdFiles(dir) {
 
     if (stat.isDirectory()) {
       mdFiles = mdFiles.concat(findMdFiles(filePath))
-    } else if (file.endsWith('.md')) {
+    } else if (file.endsWith('.md') && !file.endsWith(asoluteSuffixPath)) {
       mdFiles.push(filePath)
     }
   })
@@ -30,8 +32,8 @@ function replaceImagePaths(mdFile, originPath) {
   // const updatedContent = content.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (match, altText, imgPath) => {
   //   if (!imgPath.startsWith('http') && !path.isAbsolute(imgPath)) {
   //     // 将相对路径转换为绝对路径
-  //     const absolutePath = `${originPath}/${imgPath}`
-  //     return `![${altText}](${absolutePath})`
+  //     const asoluteSuffixPath = `${originPath}/${imgPath}`
+  //     return `![${altText}](${asoluteSuffixPath})`
   //   }
   //   return match
   // })
@@ -40,15 +42,15 @@ function replaceImagePaths(mdFile, originPath) {
     if (!imgPath.startsWith('http') && !path.isAbsolute(imgPath)) {
       // 将相对路径转换为绝对路径
       // 使用 md 文件路径 + 原图片路径
-      const absolutePath = `${originPath}/${mdDir}/${imgPath}`
+      const asoluteSuffixPath = `${originPath}/${mdDir}/${imgPath}`
         .replace(/\\/g, '/')
         .replace(/\/{2,}/g, '/') // 使用正斜杠拼接路径
-      return `![${altText}](${absolutePath})`
+      return `![${altText}](${asoluteSuffixPath})`
     }
     return match
   })
 
-  const newFileName = mdFile.replace(/\.md$/, '.absolute-path.md')
+  const newFileName = mdFile.replace(/\.md$/, asoluteSuffixPath)
   fs.writeFileSync(newFileName, updatedContent, 'utf8')
   console.log(`Updated: ${mdFile}`)
 }
