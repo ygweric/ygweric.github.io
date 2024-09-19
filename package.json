@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"cross-env WATCH=true node ./scripts/prebuild.mjs\" \"npm run imgpath\"  \"cross-env INIT_CWD=$PWD next dev --port 3456\"",
-    "imgpath": "nodemon --inspect --watch ./data/* --ignore *.absolute-path.md  -e md,mjs,js scripts/commonds/convert-md-img-absolute-path.mjs",
+    "imgpath": "nodemon --inspect --watch ./data/* --ignore *.absolute-path.mdx  -e md,mjs,js scripts/commonds/convert-md-img-absolute-path.mjs",
     "start": "next dev",
     "create": "node scripts/commonds/create-blog.mjs",
     "build": "cross-env WATCH=false node ./scripts/prebuild.mjs && cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",

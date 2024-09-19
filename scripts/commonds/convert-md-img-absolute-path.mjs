@@ -2,7 +2,7 @@
 import path from 'path'
 import fs from 'fs'
 
-const asoluteSuffixPath = '.absolute-path.md'
+const asoluteSuffixPath = '.absolute-path.mdx'
 
 // 递归遍历目录，查找所有 .md 文件
 function findMdFiles(dir) {
