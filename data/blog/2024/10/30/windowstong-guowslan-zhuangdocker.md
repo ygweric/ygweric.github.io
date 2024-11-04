@@ -6,11 +6,11 @@ tags:
 draft: true
 summary:
 ---
+obsidian://open?vault=blog&file=2024%2F8%2F29%2Fqi-dong-cuo-wu-jie-jue
 
+[windows](obsidian://open?vault=blog&file=2024%2F8%2F29%2Fqi-dong-cuo-wu-jie-jue)
 
-
-
-
+[qi-dong-de-cuo-wu](../../8/29/qi-dong-de-cuo-wu.md)
 
 
 
