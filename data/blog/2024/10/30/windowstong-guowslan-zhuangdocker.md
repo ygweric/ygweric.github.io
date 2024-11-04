@@ -64,8 +64,7 @@ deb https://mirrors.aliyun.com/docker-ce/linux/debian stretch stable
 ### 网络
 
 1. 桥接网卡-hyper-v，这样才能ping通
-
-![](https://zct85ce4jm.feishu.cn/space/api/box/stream/download/asynccode/?code=MmE2NzFlZWQ2NjMyZTUyYjgxYWU2MTQ5NmE0OWNmNzhfSjJFNlhFcnpNYmZjT3BvWE1mWEhkNEp2alFhaHJQYjZfVG9rZW46WVYxcWJlQ0lqb2I4WHR4RHdUZGNscERUbmREXzE3MzA3MDEyODA6MTczMDcwNDg4MF9WNA)
+![](Pasted%20image%2020241104143734.png)
 
   
 
