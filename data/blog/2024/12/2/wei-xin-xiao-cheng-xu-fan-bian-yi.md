@@ -12,12 +12,8 @@ summary:
 
 今天就直接来演技下小程序此反编译。
 
-
 ## 逆向软件
 下载地址 [反编译脚本利器.zip](https://github.com/ygweric/test-files/blob/master/%E5%8F%8D%E7%BC%96%E8%AF%91%E8%84%9A%E6%9C%AC%E5%88%A9%E5%99%A8.zip)
-
-
-
 
 
 ## 小程序代码位置
@@ -54,38 +50,136 @@ summary:
 
 
 
-
-
-
-
-
-
-
 ## 从 wxapkg提取小程序原生文件
 
-复制解密后的**wxapkg** 到**反编译脚本利器\wxappUnpacker-master** 目录中。
+到到**反编译脚本利器\wxappUnpacker-master** 目录中，安装依赖 **npm i**。
+
+
+复制解密后的**wxapkg** 到**反编译脚本利器\wxappUnpacker-master** 目录中，运行
+```
+node wuWxapkg.js wx1a512a5456e6aad1.wxapkg 
+```
+ 对应提取的原生文件在**wx1a512a5456e6aad1**目录中，可以正常看看源码了。
+
+
+### 有子包
+
+用下面命令，指定子包和主包。
+
+```
+node wuWxapkg.js wx997403c489bfae42_packageA.wxapkg", "-s=wx997403c489bfae42_main.wxapkg
+```
 
 
 
+### 未加密的wxapkg内容提取。
 
 
+使用下面python文件，运行
+```
+python unwxapkg.py wx997403c489bfae42.wxapkg
+```
+
+**unwxapkg.py***
+```python
+# coding: utf-8
+# py2 origin author lrdcq
+# usage python3 unwxapkg.py filename
+
+__author__ = 'Integ: https://github.com./integ'
+
+import sys, os
+import struct
+
+class WxapkgFile(object):
+    nameLen = 0
+    name = ""
+    offset = 0
+    size = 0
+
+if len(sys.argv) < 2:
+    print('usage: unwxapkg.py filename [output_dir]')
+    exit()
+
+with open(sys.argv[1], "rb") as f:
+    root = os.path.dirname(os.path.realpath(f.name))
+    name = os.path.basename(f.name) + '_dir'
+    if len(sys.argv) > 2:
+        name = sys.argv[2]
+
+    #read header
+    firstMark = struct.unpack('B', f.read(1))[0]
+    print('first header mark = {}'.format(firstMark))
+
+    info1 = struct.unpack('>L', f.read(4))[0]
+    print('info1 = {}'.format(info1))
+
+    indexInfoLength = struct.unpack('>L', f.read(4))[0]
+    print('indexInfoLength = {}'.format(indexInfoLength))
+
+    bodyInfoLength = struct.unpack('>L', f.read(4))[0]
+    print('bodyInfoLength = {}'.format(bodyInfoLength))
+
+    lastMark = struct.unpack('B', f.read(1))[0]
+    print('last header mark = {}'.format(lastMark))
+
+    if firstMark != 0xBE or lastMark != 0xED:
+        print('its not a wxapkg file!!!!!')
+        f.close()
+        exit()
+
+    fileCount = struct.unpack('>L', f.read(4))[0]
+    print('fileCount = {}'.format(fileCount))
+
+    #read index
+    fileList = []
+    for i in range(fileCount):
+        data = WxapkgFile()
+        data.nameLen = struct.unpack('>L', f.read(4))[0]
+        data.name = f.read(data.nameLen)
+        data.offset = struct.unpack('>L', f.read(4))[0]
+        data.size = struct.unpack('>L', f.read(4))[0]
+        print('readFile = {} at Offset = {}'.format(str(data.name, encoding = "utf-8"), data.offset))
+
+        fileList.append(data)
+
+    #save files
+    for d in fileList:
+        d.name = '/' + name + str(d.name, encoding = "utf-8")
+        path = root + os.path.dirname(d.name)
+
+        if not os.path.exists(path):
+            os.makedirs(path)
+
+        w = open(root + d.name, 'wb')
+        f.seek(d.offset)
+        w.write(f.read(d.size))
+        w.close()
+
+        print('writeFile = {}{}'.format(root, d.name))
+
+    f.close()
+```
 
 
+## 怎么加固防破解
+
+### 代码保护
+开发者工具有“代码保护”选项，但效果不好，只是重命名了变量名，没有真正混淆。
+
+![](企业微信截图_17331172462966.png)
 
 
+### 代码加固
 
+https://developers.weixin.qq.com/miniprogram/dev/devtools/code_obfuscation.html
+官方有加固的插件。
 
+效果很好，完全看不到内容了，可以自行试一下。
 
+效果可以参考下面
 
-
-
-
-
-
-
-
-
-
+https://obfuscator.io/
 
 
 
