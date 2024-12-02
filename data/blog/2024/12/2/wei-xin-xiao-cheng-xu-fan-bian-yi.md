@@ -183,6 +183,13 @@ https://obfuscator.io/
 
 
 
+## 相关工具
+
+这个是**go**写的破解工具，但我还没运行成功，回头可以在试试。
+https://github.com/BlackTrace/pc_wxapkg_decrypt
+
+
+
 # 关于我
 国 wei (Eric)
 [Github](https://github.com/ygweric)
