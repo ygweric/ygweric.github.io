@@ -1,22 +1,22 @@
 {
-    "notifications": [
-        {
-            "expiredDate": "2024-02-31T04:52:39.147Z",
-            "type": "deploying",
-            "title": "",
-            "content": "小程序试运行期间会不稳定，如有问题请稍后重试"
-        },
-        {
-            "expiredDate": "2025-06-21T04:52:39.147Z",
-            "type": "deploying",
-            "title": "",
-            "content": "本小程序代码已开源，欢迎查看代码确认导航避让信息是否正确，github 搜索用户“ygweric”查看代码"
-        },
-        {
-            "expiredDate": "2024-06-08T15:52:39.147Z",
-            "type": "deploying",
-            "title": "",
-            "content": "数据服务正在更新，预计完成时间[time]"
-        }
-    ]
+  "notifications": [
+    {
+      "expiredDate": "2025-02-31T04:52:39.147Z",
+      "type": "deploying",
+      "title": "",
+      "content": "小程序暂时白屏或者卡死，请过几天在试试。小程序检查不出问题，怀疑是微信框架的问题，请包涵。"
+    },
+    {
+      "expiredDate": "2025-06-21T04:52:39.147Z",
+      "type": "deploying",
+      "title": "",
+      "content": "本小程序代码已开源，欢迎查看代码确认导航避让信息是否正确，github 搜索用户“ygweric”查看代码"
+    },
+    {
+      "expiredDate": "2024-06-08T15:52:39.147Z",
+      "type": "deploying",
+      "title": "",
+      "content": "数据服务正在更新，预计完成时间[time]"
+    }
+  ]
 }
