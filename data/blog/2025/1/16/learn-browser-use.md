@@ -313,7 +313,19 @@ Remember: Your responses must be valid JSON matching the specified format. Each 
 * HumanMessage 表示用户输入
 * AIMessage表示Ai返回内容
 
+前面的是对话历史，最后一个HumanMessage是当前的网页状态信息
 
+循环结果如下
+```sh
+HumanMessage(content='Your task is: 打开豆瓣电影 https://movie.douban.com/，搜索“流浪地球2”，查看评分', additional_kwargs={}, response_metadata={}),
+AIMessage(content='{"current_state":{"evaluation_previous_goal":"Unknown - The task is starting.","memory":"The goal is to open Douban Movie, search for \'流浪地球2\', and check the rating.","next_goal":"Open Douban Movie website"},"action":[{"go_to_url":{"url":"https://movie.douban.com/"}}]}', additional_kwargs={}, response_metadata={}), 
+HumanMessage(content='🔗  Navigated to https://movie.douban.com/', additional_kwargs={}, response_metadata={}), 
+AIMessage(content='{"current_state":{"evaluation_previous_goal":"Success - Navigated to the Douban Movie website.","memory":"Opened Douban Movie, next need to search for \'流浪地球2\'.","next_goal":"Search for \'流浪地球2\'"}"action":[{"input_text":{"index":14,"text":"流浪地球2"}},{"click_element":{"index":15}}]}', additional_kwargs={}, response_metadata={}), 
+HumanMessage(content='⌨️  Input "流浪地球2" into index 14', additional_kwargs={}, response_metadata={}), 
+ HumanMessage(content=[{'type': 'text', 'text': '\n\nCurrent url: https://movie.douban.com/\nAvailable tabs:\n[TabInfo(page_id=0, url=\'chrome-extension://hagknokdofkmojolcpbddjfdjhnjdkae/offscreen.html\', title=\'\\xa0\'), TabInfo(page_id=1, url=\'chrome://new-tab-page/\', title=\'新标签页\'), TabInfo(page_id=2, url=\'https://movie.douban.com/\', title=\'豆瓣电影\')]\n
+ 
+ 
+```
 
 #### HumanMessage举例
 ```sh
