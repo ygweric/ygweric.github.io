@@ -118,6 +118,7 @@ Notes:
 	- When an image is provided, use it to understand the page layout
 	- Bounding boxes with labels correspond to element indexes
 	- Each bounding box and its label have the same color
+	# 理解图片时候，强调dom元素索引在右上角，方便大模型知道下一步操作哪个dom元素
 	- Most often the label is inside the bounding box, on the top right
 	- Visual context helps verify element locations and relationships
 	- sometimes labels overlap, so use the context to verify the correct element
@@ -298,6 +299,13 @@ Functions:
 # 强调json格式
 Remember: Your responses must be valid JSON matching the specified format. Each action in the sequence must be valid.
 ```
+
+
+### 视觉模型解析图片
+
+将索引后的dom元素索引号加载dom元素的右上角，方便大模型理解并准确告知将要操作模型的索引号
+![](下载.png)
+![](微信截图_20250102093641.png)
 
 
 ### 历史对话
@@ -546,7 +554,6 @@ _[:](依然饭特稀)
 ```
 
 
-
 ### 结果验证prompt
 
 ```sh
@@ -634,33 +641,9 @@ def add_state_message(
 
 
 
+## 操作视频
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](豆瓣-流浪地球-完整版.mp4)
 
 
 
