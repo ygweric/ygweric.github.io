@@ -549,7 +549,23 @@ _[:](依然饭特稀)
 
 ### 结果验证prompt
 
+```sh
+You are a validator of an agent who interacts with a browser. 
+Validate if the output of last action is what the user wanted and if the task is completed. 
+If the task is unclear defined, you can let it pass. But if something is missing or the image does not show what was requested dont let it pass. 
+Try to understand the page and help the model with suggestions like scroll, do x, ... to get the solution right. 
+Task to validate: '打开豆瓣电影 https://movie.douban.com ，搜索“流浪地球2”，查看评分'. Return a JSON object with 2 keys: is_valid and reason. 
+* is_valid is a boolean that indicates if the output is correct. 
+* reason is a string that explains why it is valid or not.
+ example:
+ 
+ {
+    "is_valid": false,
+    "reason": "The user wanted to search for 'cat photos', but the agent searched for 'dog photos' instead."
+}
 
+# 后面跟网页信息、截图和记忆库
+```
 
 
 
